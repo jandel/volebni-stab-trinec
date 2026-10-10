@@ -1,0 +1,16 @@
+'use client';
+import MajorityCalculator from './MajorityCalculator';
+import {Info,Landmark} from 'lucide-react';
+import type {Election} from '@/lib/types';
+import {estimateMandates} from '@/lib/mandates';
+import {color,number,percent,shortName} from '@/lib/display';
+export default function MandatePanel({election}:{election:Election}){
+ const result=estimateMandates(election.parties,election.seats,election.complete);
+ const parties=[...election.parties].sort((a,b)=>b.votes-a.votes||a.id-b.id);
+ return <section className="mandate-panel"><div className="table-heading"><div><span className="section-kicker">CELÉ MĚSTO · {election.counted} / {election.total} OKRSKŮ</span><h2><Landmark size={20}/>{result.official?'Oficiální rozdělení mandátů':'Mandáty podle dosud sečtených hlasů'}</h2></div><span className={`calc-badge ${result.official?'official':''}`}>{result.official?'Výsledek ČSÚ':'Průběžný přepočet'}</span></div>
+ <div className="mandate-body"><div className="seat-strip" aria-label="Rozdělení mandátů">{result.available?parties.flatMap(p=>Array.from({length:result.parties[p.id].min},(_,i)=><i key={`${p.id}-${i}`} style={{background:color(p)}} title={`${shortName(p)} · mandát ${i+1}`}/>)):Array.from({length:election.seats},(_,i)=><i key={i} className="unallocated"/>)}{result.available&&Array.from({length:election.seats-result.allocated},(_,i)=><i key={`empty-${i}`} className="unallocated" title={result.lotterySeats?'Mandát může záviset na losu':'Neobsazený mandát'}/>)}</div>
+ {!result.available?<p className="mandate-empty">Přepočet se objeví po zveřejnění prvních platných hlasů. Rozděluje se {election.seats} mandátů.</p>:<div className="mandate-grid">{parties.map(p=>{const m=result.parties[p.id];return <div key={p.id}><div><i style={{background:color(p)}}/><span>{shortName(p)}</span><strong>{m.seats===null?`${m.min}–${m.max}`:m.seats}</strong></div><small>{m.eligible?`${number(p.votes)} hlasů · postupuje`:`Pod vstupním kvórem · ${percent(m.adjustedShare)} z přepočteného základu`}</small></div>;})}</div>}
+ <div className="mandate-explanation"><Info size={15}/><p>{result.official?'Zobrazeny jsou mandáty přidělené ČSÚ.':'Nejde o předpověď konečného výsledku. Přepočítáváme pouze již sečtené hlasy a nic nedopočítáváme za zbývající okrsky. S dalšími výsledky se rozdělení může výrazně změnit.'} {result.lotterySeats>0&&`U ${result.lotterySeats} mandátu/mandátů by nyní rozhodoval los; uvádíme možné rozpětí.`} {result.threshold<5&&`Vstupní kvórum bylo podle pravidel sníženo na ${result.threshold} %.`}</p></div>
+ <MajorityCalculator parties={election.parties} estimate={result}/>
+ <details className="mandate-method"><summary>Jak se mandáty přepočítávají</summary><p>Nejprve se ověřuje vstupní kvórum na základě počtu platných kandidátů. U kratší listiny je přepočtený základ nižší. Postupujícím listinám se mandáty přidělují d’Hondtovou metodou z počtů hlasů (dělitele 1, 2, 3…). Přesná shoda může vyžadovat los. Mandáty se rozdělují za celé město, nikoli za jednotlivé okrsky.</p><a href="https://csu.gov.cz/docs/107516/60133edd-7ea3-d25d-d3d0-c2ed275d42b3/rozdelovanimandatuzo26.pdf?version=1.1" target="_blank" rel="noreferrer">Metodika ČSÚ pro volby 2026 ↗</a></details></div></section>;
+}

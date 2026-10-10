@@ -1,0 +1,9 @@
+export type Party = { id:number; name:string; code:number; composition?:string; votes:number; share:number; seats:number|null; candidates:number };
+export type Precinct = { id:number; registered:number; issued:number; validVotes:number; votes:Record<string,number>; sequence:number; processedAt?:string };
+export type Election = { year:number; generatedAt:string; complete:boolean; seats:number; total:number; counted:number; registered:number; issued:number; validVotes:number; turnout:number|null; parties:Party[]; precincts:Record<string,Precinct>; electedCandidates?:string[] };
+export type LiveState = { city:Election|null; precincts:Record<string,Precinct>; lastBatch:number; checkedAt:string|null; cityFetchedAt:string|null; precinctsCheckedAt:string|null; batchGeneratedAt:string|null; cityError:string|null; precinctError:string|null; catchingUp:boolean };
+export const MUNICIPALITY=598810;
+export const ELECTION_DATE='20261009';
+export const CITY_URL='https://volby.gov.cz/appdata/kv2026/20261009/odata/zastup/vysledky_obec_598810.xml';
+export const BATCH_BASE='https://volby.gov.cz/appdata/kv2026/20261009/odata/okrsky/vysledky_okrsky_';
+export const EMPTY_STATE:LiveState={city:null,precincts:{},lastBatch:0,checkedAt:null,cityFetchedAt:null,precinctsCheckedAt:null,batchGeneratedAt:null,cityError:null,precinctError:null,catchingUp:false};
