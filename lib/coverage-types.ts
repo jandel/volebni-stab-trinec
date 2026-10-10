@@ -1,0 +1,10 @@
+export type CommentaryLanguage='cs'|'local';
+export type Bilingual<T>={cs:T;local:T};
+export type CommentaryText={title:string;body:string};
+export type CommentaryEvent={id:string;observedAt:string;sourceId:number;kind:'results'|'lead'|'seats'|'correction'|'candidates'|'final'|'warning';text:Bilingual<CommentaryText>};
+export type CoverageSettings={enabled:boolean;scheduleReady:boolean;automationId:string|null;startsAt:string;firstSummaryAt:string;endsAt:string;revision:number;lastAttemptAt:string|null;lastStatus:string|null;updatedAt:string|null};
+export type AnalysisText={title:string;paragraphs:string[];watch:string[]};
+export type AnalysisSummary={id:string;demo:boolean;createdAt:string;asOf:string;periodFrom:string;sourceId:number;factIds:string[];text:Bilingual<AnalysisText>};
+export type AnalysisFact={id:string;text:string};
+export type AnalysisContext={id:string;demo:boolean;slot:string;expiresAt:string;sourceId:number;asOf:string;periodFrom:string;settingsRevision:number;facts:AnalysisFact[];instructions:string[];request:{method:'POST';path:string;bodyShape:unknown}};
+export type CoverageFeed={settings:CoverageSettings;events:CommentaryEvent[];summaries:AnalysisSummary[];checkedAt:string|null;counted:number;total:number;complete:boolean;integrity:string;error:string|null};
