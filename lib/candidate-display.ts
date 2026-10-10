@@ -11,4 +11,14 @@ for(const [id,votes] of Object.entries(data2022.precinctVotes)){const p=(histori
 export const HISTORIC_CANDIDATES:CandidateState={city,precincts,cityError:null,precinctError:null,checkedAt:data2022.retrievedAt,pendingPrecincts:0};
 export const candidateVotesForMap=(state:CandidateState,id:string)=>Object.fromEntries(Object.entries(state.precincts).filter(([,s])=>id in s.votes).map(([p,s])=>[p,s.votes[id]]));
 
+export type CandidateMandate='elected'|'projected'|'lottery'|'out';
+export function compareByMandate(a:Candidate,b:Candidate,projections:Record<string,{mandate:CandidateMandate}>,cityVotes:Record<string,number>={}){
+ const priority=(c:Candidate)=>{
+  if(!c.active)return 4;
+  const mandate=projections[c.id]?.mandate;
+  return mandate==='elected'||mandate==='projected'?0:mandate==='lottery'?1:mandate==='out'?2:3;
+ };
+ return priority(a)-priority(b)||(cityVotes[b.id]??-1)-(cityVotes[a.id]??-1)||a.partyId-b.partyId||a.order-b.order;
+}
+
 export function candidateRatiosForMap(state:CandidateState,id:string,registry:Candidate[]){const c=registry.find(c=>c.id===id);if(!c)return {};return Object.fromEntries(Object.entries(state.precincts).flatMap(([pid,scope])=>{const r=relativeCandidate(scope,c,registry);return r?[[pid,r.ratio]]:[];}));}
