@@ -15,7 +15,7 @@ Výchozí soubor výsledků je přípravný a bez nových sečtených okrsků. A
 Soukromá administrátorská aplikace vytváří jeden úplný veřejný export. Obsahuje výsledky města, okrsků a kandidátů, kontrolu konzistence a zachycenou historii. Neobsahuje soukromé scénáře, nastavení sběru, přístupové údaje ani odkazy do soukromé aplikace.
 
 - Ručně: stáhněte v administraci **veřejný export**, nahraďte `docs/data/published.json` a uložte změnu do `main`.
-- Tlačítkem: do serverových tajemství soukromé aplikace vložte `GITHUB_PUBLICATION_TOKEN` (fine-grained token pouze pro tento repozitář, **Contents: Read and write**) a nasaďte její novou verzi. Následně použijte **Publikovat na GitHub**. Token patří výhradně do chráněného serverového nastavení.
+- Tlačítkem **Publikovat na GitHub** v soukromé aplikaci. Používá GitHub připojený k vašemu ChatGPT. Při prvním použití potvrďte přístup pro soukromou aplikaci, vraťte se a klikněte na publikování znovu. Zápis vždy vyžaduje váš klik; po přihlášení se sám neopakuje. Veřejná verze žádné přihlášení ani propojení nepotřebuje.
 
 Publikování je ruční a nespouští sběr. Odeslání do GitHubu a dostupnost na GitHub Pages jsou dva samostatné stavy; po nasazení lze v administraci ověřit verzi veřejných dat. Nasazení může trvat několik minut. Otevřený veřejný web kontroluje poslední zveřejněný soubor po minutě, pokud návštěvník obnovení nevypne.
 
