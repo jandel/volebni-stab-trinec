@@ -1,6 +1,7 @@
 import type {ClientData,PublicSnapshot,PublicCoverage} from './public-types';
 import type {HistoryPage} from './history-types';
 import {assetPath} from './runtime';
+import {unpackSnapshot} from './public-transport';
 let snapshot:PublicSnapshot|null=null,pending:Promise<PublicSnapshot>|null=null;
 export function validPublicCoverage(value:unknown,sourceIds:Set<number>):value is PublicCoverage{
  const object=(x:unknown):x is Record<string,any>=>!!x&&typeof x==='object'&&!Array.isArray(x);
@@ -17,7 +18,7 @@ export function validPublicSnapshot(value:unknown):value is PublicSnapshot{
 }
 async function readSnapshot(force=false):Promise<PublicSnapshot>{
  if(pending)return pending;if(snapshot&&!force)return snapshot;
- pending=(async()=>{const response=await fetch(assetPath('/data/published.json')+`?v=${Math.floor(Date.now()/60000)}`,{cache:'no-store',signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error('Zveřejněné výsledky se nepodařilo načíst.');const value=await response.json();if(!validPublicSnapshot(value))throw Error('Zveřejněná data mají neplatný formát.');snapshot=value;return value;})();
+ pending=(async()=>{const response=await fetch(assetPath('/data/published.json')+`?v=${Math.floor(Date.now()/60000)}`,{cache:'no-store',signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error('Zveřejněné výsledky se nepodařilo načíst.');const value=await unpackSnapshot(await response.json(),async path=>{const part=await fetch(assetPath('/data/'+path),{signal:AbortSignal.timeout(30000)});if(!part.ok)throw Error('Část zveřejněných výsledků zatím není dostupná.');return new Uint8Array(await part.arrayBuffer());});if(!validPublicSnapshot(value))throw Error('Zveřejněná data mají neplatný formát.');snapshot=value;return value;})();
  try{return await pending;}finally{pending=null;}
 }
 export async function getPublicResults(_update=true):Promise<ClientData>{const s=await readSnapshot(true);return {...s.state,publication:s.publication,coverage:s.coverage};}

@@ -14,7 +14,7 @@ export async function buildPublic(outdir='docs'){
  let html=await readFile(path.join(root,'static-site/index.html'),'utf8');
  html=html.replace('./assets/main.js',script);if(style)html=html.replace('./assets/main.css',style);
  await writeFile(path.join(output,'index.html'),html);
- await writeFile(path.join(output,'.nojekyll'),'');await writeFile(path.join(output,'.election-public.json'),JSON.stringify({application:'trinec-election-map',schemaVersion:1})+'\n');
+ await writeFile(path.join(output,'.nojekyll'),'');await writeFile(path.join(output,'.election-public.json'),JSON.stringify({application:'trinec-election-map',schemaVersion:1,transportVersion:2})+'\n');
  // Frontend rebuilds must preserve the latest published result file.
  try{await access(path.join(output,'data/published.json'));}catch{await copyFile(path.join(root,'static-site/seed.json'),path.join(output,'data/published.json'));}
  return result;
