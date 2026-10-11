@@ -1,6 +1,6 @@
 # Třinec · Volební mapa
 
-Samostatná veřejná aplikace pro GitHub Pages: výsledky komunálních voleb 2026 a 2022, okrskové mapy, kandidáti, orientační přepočet mandátů, historie, modelování celých kandidátek a komentovaný přenos česky i po naszymu. Data poskytuje ČSÚ; aplikace je nezávislá.
+Samostatná veřejná aplikace pro GitHub Pages: výsledky komunálních voleb 2026 a 2022, konečná analýza obou voleb, okrskové mapy, kandidáti, orientační přepočet mandátů, historie, modelování celých kandidátek a komentovaný přenos česky i po naszymu. Data poskytuje ČSÚ; aplikace je nezávislá.
 
 ## První zveřejnění
 
@@ -28,6 +28,12 @@ Ruční publikování samo nespouští sběr. Odeslání do GitHubu a dostupnost
 Záložka **Přenos** (`#coverage`) nabízí všechny zprávy nebo jen AI analýzy a přepínač Česky / Po naszymu. Krátké zprávy jsou deterministické šablony nad uloženými změnami ČSÚ. Označené AI souhrny vycházejí z ověřených dat a obsahují čas podkladů, omezení a otevřené otázky. Jsou interpretací, mohou chybovat a nejsou předpovědí výsledku. Nářeční verze je pracovní, se slovní oporou ve slovníku Jana Kluse / BLAF.
 
 Do uzavření volebních místností 10. října ve 14:00 se čeká na výsledky. První AI souhrn může vzniknout od 15:00; bez nových ověřených podkladů se přeskočí.
+
+## Konečná analýza 2022–2026
+
+Záložka **Analýza 2022–2026** (`#analysis`) obsahuje hlavní zjištění, srovnání podpory a účasti, interaktivní mapy a grafy, mandátový model, kandidáty, obměnu zastupitelstva a zachycený průběh sčítání. Vychází z pevného konečného snímku všech 38 okrsků. Text vznikl s pomocí AI; čísla vycházejí z kontrolovaných součtů. Metodika a zdroje jsou přímo v záložce, včetně omezení srovnatelnosti listin a hranic okrsků.
+
+Analýza funguje nezávisle na obnovování zveřejněných dat, nic nesbírá ani neukládá na server. Tabulku srovnání lze stáhnout jako CSV a celý přehled vytisknout. Přímý odkaz: https://jandel.github.io/volebni-stab-trinec/#analysis .
 
 ## Úprava aplikace
 
