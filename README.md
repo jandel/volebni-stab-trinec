@@ -1,41 +1,45 @@
 # Třinec · Volební mapa
 
-Samostatná veřejná aplikace pro GitHub Pages: výsledky komunálních voleb 2026 a 2022, konečná analýza obou voleb, okrskové mapy, kandidáti, orientační přepočet mandátů, historie, modelování celých kandidátek a komentovaný přenos česky i po naszymu. Data poskytuje ČSÚ; aplikace je nezávislá.
+Nezávislý veřejný přehled komunálních voleb v Třinci. Výsledky vycházejí z dat Českého statistického úřadu; rozhodující jsou jeho oficiální údaje.
 
-## První zveřejnění
+Veřejná aplikace: https://jandel.github.io/volebni-stab-trinec/
 
-1. Nahrajte celý obsah tohoto projektu do veřejného repozitáře `jandel/volebni-stab-trinec`, do větve `main`.
-2. V GitHubu otevřete **Settings → Pages**. Zvolte **Deploy from a branch**, větev **main**, složku **/docs** a uložte.
-3. Po dokončení nasazení otevřete https://jandel.github.io/volebni-stab-trinec/ . První sestavení už je připravené; instalace Node.js není pro nahrání potřeba.
+## Co na webu najdete
 
-Výchozí soubor výsledků je přípravný a bez nových sečtených okrsků. Aplikace tento stav viditelně označuje.
+- **Výsledky 2026 a 2022:** městské součty, okrskové mapy, kandidáti a mandáty.
+- **Porovnání:** změny podpory a účasti mezi oběma volbami.
+- **Modelování:** vlastní předpoklady účasti a hlasování pro celé kandidátky. Scénáře se ukládají jen v konkrétním prohlížeči.
+- **Průběh:** zachycené stavy sčítání.
+- **Přenos:** uložené zprávy a označené AI souhrny v češtině i po naszymu.
+- **Analýzy a přehledy:** konečné srovnání výsledků, koaliční varianty a profily všech zvolených zastupitelů.
 
-## Aktualizace výsledků
+## Výsledky 2022–2026
 
-Soukromá administrátorská aplikace vytváří jeden úplný veřejný export. Obsahuje výsledky města, okrsků a kandidátů, kontrolu konzistence, zachycenou historii a skutečné komentáře s hodinovými AI analýzami. Neobsahuje soukromé scénáře, nastavení sběru, přístupové údaje ani odkazy do soukromé aplikace.
+https://jandel.github.io/volebni-stab-trinec/#analysis
 
-- Ručně: stáhněte v administraci **veřejný export**, nahraďte `docs/data/published.json` a uložte změnu do `main`.
-- Tlačítkem **Publikovat na GitHub** v soukromé aplikaci. Používá GitHub připojený k vašemu ChatGPT. Při prvním použití potvrďte přístup pro soukromou aplikaci, vraťte se a klikněte na publikování znovu. Ručně vyvolaný zápis se po přihlášení sám neopakuje. Veřejná verze žádné přihlášení ani propojení nepotřebuje.
+Konečná analýza obsahuje hlavní zjištění, srovnání podpory a účasti, interaktivní mapy a grafy, mandátový model, kandidáty, obměnu zastupitelstva a průběh sčítání. Vychází z ověřeného konečného snímku všech 38 okrsků. Srovnávací tabulku lze stáhnout jako CSV a přehled vytisknout. Metodika uvádí omezení srovnatelnosti listin i hranic okrsků.
 
-Automatické publikování z otevřené administrace lze spustit s intervalem 10, 15, 30 nebo 60 minut. Výchozí interval je 10 minut; nezměněný obsah se znovu nezapisuje.
+## Možné koalice
 
-Při zapnutém komentovaném přenosu připojená hodinová úloha navíc zveřejňuje výsledky, šablonové zprávy a nově uložené AI souhrny i při zavřené administraci. Respektuje vypínač přenosu a vymezené volební období. Používá připojený GitHub vlastníka a mění jen `docs/data/published.json`; veřejná aplikace nepoužívá žádný přístupový token. Demo, ovládání a podkladové AI instrukce zůstávají v soukromé administraci.
+https://jandel.github.io/volebni-stab-trinec/#coalitions
 
-Ruční publikování samo nespouští sběr. Odeslání do GitHubu a dostupnost na GitHub Pages jsou dva samostatné stavy; po nasazení lze v administraci ověřit verzi veřejných dat. Nasazení může trvat několik minut. Otevřený veřejný web kontroluje poslední zveřejněný soubor po minutě, pokud návštěvník obnovení nevypne.
+Přehled devíti základních většinových kombinací nabízí filtry podle kandidátky, počtu partnerů a rezervy nad většinou. Dvě varianty lze porovnat vedle sebe. Rozbory oddělují programové návaznosti, otevřené otázky a souvislosti mezi zvolenými lidmi. Třináct tematických přehledů pomáhá hledat konkrétní průniky.
 
-## Komentovaný přenos
+Počty mandátů nejsou předpovědí koalice ani potvrzením dohody. Jde o datovaný přehled podle podkladů z 11. října 2026, nikoli živé sledování jednání.
 
-Záložka **Přenos** (`#coverage`) nabízí všechny zprávy nebo jen AI analýzy a přepínač Česky / Po naszymu. Krátké zprávy jsou deterministické šablony nad uloženými změnami ČSÚ. Označené AI souhrny vycházejí z ověřených dat a obsahují čas podkladů, omezení a otevřené otázky. Jsou interpretací, mohou chybovat a nejsou předpovědí výsledku. Nářeční verze je pracovní, se slovní oporou ve slovníku Jana Kluse / BLAF.
+## Zvolení zastupitelé
 
-Do uzavření volebních místností 10. října ve 14:00 se čeká na výsledky. První AI souhrn může vzniknout od 15:00; bez nových ověřených podkladů se přeskočí.
+https://jandel.github.io/volebni-stab-trinec/#representatives
 
-## Konečná analýza 2022–2026
+Všech 27 profilů lze hledat podle jména, kandidátky, osobně zmiňovaného tématu a dostupnosti osobních podkladů. Detail odděluje vlastní vyjádření, společný program kandidátky a omezení. Profesi ani mediální výroky lídra nepřevádí na osobní slib ostatních členů klubu. Pět osob bez doložených samostatných závazků je takto označeno.
 
-Záložka **Analýza 2022–2026** (`#analysis`) obsahuje hlavní zjištění, srovnání podpory a účasti, interaktivní mapy a grafy, mandátový model, kandidáty, obměnu zastupitelstva a zachycený průběh sčítání. Vychází z pevného konečného snímku všech 38 okrsků. Text vznikl s pomocí AI; čísla vycházejí z kontrolovaných součtů. Metodika a zdroje jsou přímo v záložce, včetně omezení srovnatelnosti listin a hranic okrsků.
+Podklady odpovídají 11. říjnu 2026. Přímý odkaz na člověka má tvar `#representatives/<id-kandidáta>`. Programy a původní zdroje jsou dostupné v detailu i společném seznamu.
 
-Analýza funguje nezávisle na obnovování zveřejněných dat, nic nesbírá ani neukládá na server. Tabulku srovnání lze stáhnout jako CSV a celý přehled vytisknout. Přímý odkaz: https://jandel.github.io/volebni-stab-trinec/#analysis .
+## Jak číst údaje
 
-## Úprava aplikace
+Podíl kandidátky je podílem kandidátských hlasů, nikoli podílem jednotlivých voličů. Jeden volič mohl dát více hlasů. Mandáty se mezi roky změnily z 33 na 27. Okrskové rozdíly jsou orientační kvůli zjednodušeným historickým hranicím. Texty vznikly s pomocí AI; údaje a interpretaci je vhodné rozlišovat.
+
+## Sestavení veřejné aplikace
 
 Vyžaduje Node.js 22.13 nebo novější:
 
@@ -44,21 +48,14 @@ npm install
 npm run build
 ```
 
-Sestavení aktualizuje `docs/` a zachová existující `docs/data/published.json`. Do GitHubu odešlete zdroj i nové sestavení. Závislosti jsou připnuté; soubor lock vytvořený instalací doporučujeme rovněž verzovat.
+Výstup je ve složce `docs/`. Sestavení zachovává existující veřejný soubor výsledků. GitHub Pages tohoto repozitáře používá větev `main` a složku `/docs`.
 
-## Modely a metodika
-
-Návštěvnické scénáře se ukládají do localStorage konkrétního prohlížeče, nejvýše 12. Nesdílejí se mezi návštěvníky ani zařízeními; smazání dat prohlížeče je odstraní. Model předpokládá hlasování pro celé kandidátky a nepřidává preferenční hlasy ani panašování. Průběžné mandáty nejsou předpovědí konečného výsledku. Podrobnosti jsou přímo v aplikaci.
-
-## Podklady
+## Zdroje a externí služby
 
 - Výsledky a seznamy kandidátů: https://volby.gov.cz/
-- Hranice okrsků: Český statistický úřad / RÚIAN, historický generalizovaný snímek 2022 a snímek 2026.
+- Hranice okrsků: ČSÚ / RÚIAN, snímky 2022 a 2026.
 - Mapové dlaždice: OpenStreetMap a jeho přispěvatelé; atribuce je uvedena v mapě.
-- Písmo: DM Sans a Manrope (Google Fonts).
+- Písma: DM Sans a Manrope, Google Fonts.
+- Programy, medailonky a mediální vyjádření: konkrétní odkazy u příslušných přehledů.
 
-Veřejný web neobsahuje analytické měření ani serverovou databázi. Při otevření mapy a načítání písma komunikuje s poskytovateli mapových dlaždic a Google Fonts.
-
-## Odebrání veřejného webu
-
-V **Settings → Pages** lze web zrušit pomocí **Unpublish site**. Veřejný repozitář a jeho historie tím zůstávají dostupné; jejich viditelnost se řídí samostatně v nastavení repozitáře. Již stažené kopie nelze odebrat.
+Web nepoužívá analytické měření. Při načítání map a písem komunikuje s uvedenými poskytovateli. Vyhledávání a filtrování probíhá v prohlížeči.

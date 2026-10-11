@@ -1,0 +1,1721 @@
+{
+  "asOf": "2026-10-11",
+  "negotiationCutoff": "2026-10-11T09:08:00+02:00",
+  "totalSeats": 27,
+  "majority": 14,
+  "programs": [
+    {
+      "code": "V",
+      "partyId": 1,
+      "name": "Volte Třinec",
+      "seats": 8,
+      "intro": "Čtyři pilíře pokrývají správu města, každodenní služby, místní části i dlouhodobou odolnost.",
+      "points": [
+        {
+          "title": "Místní části",
+          "text": "Investice podle potřeb, vodovody a kanalizace, bezpečné pěší trasy a návaznosti autobusů. Každoroční prostředky na sousedské projekty a pravidelné jednání s osadními výbory."
+        },
+        {
+          "title": "Bydlení a péče",
+          "text": "Dostupný městský bytový fond, průhledné přidělování, služby pro seniory a pečující. S krajem a okolními obcemi zahájit přípravu lůžkového hospice."
+        },
+        {
+          "title": "Kultura a volný čas",
+          "text": "Zázemí pro spolky a mladé, hřiště v místních částech, dostupnější kroužky a spravedlivá sportovní podpora."
+        },
+        {
+          "title": "Otevřená správa",
+          "text": "Včasná účast veřejnosti, pevný prostor pro občany na zastupitelstvu, zveřejňování investic a podkladů. Participativní rozpočet i na trvalé projekty."
+        },
+        {
+          "title": "Odolnost a ekonomika",
+          "text": "Energetické úspory a sdílení energie, obnova majetku, zeleň a zadržování vody, připravenost na krize, podpora podnikání a vazeb škol s firmami."
+        }
+      ],
+      "caution": "Zahájení přípravy hospice není slib jeho otevření do roku 2030. Konkrétní rozpočet a termíny většiny opatření musí vzniknout při realizaci.",
+      "sources": [
+        "PV1",
+        "PV2",
+        "PV3",
+        "PV4"
+      ]
+    },
+    {
+      "code": "N",
+      "partyId": 7,
+      "name": "NEZÁVISLÍ Třinec",
+      "seats": 6,
+      "intro": "Program obsahuje sedm hlavních návrhů a další témata místních částí, zeleně a zapojení obyvatel.",
+      "points": [
+        {
+          "title": "Veřejný pořádek",
+          "text": "Úprava pravidel, účinnější práce městské policie a koordinátor přímo v ulicích."
+        },
+        {
+          "title": "Doprava",
+          "text": "MHD zdarma pro obyvatele, lepší obsluha místních částí, terminál Lyžbice–Slovan a praktičtější parkování s ochranou zeleně."
+        },
+        {
+          "title": "Dostupné bydlení",
+          "text": "Koncepce bydlení, opravy a využití bytového fondu; případně výkupy, dotační zdroje a spolupráce s developery."
+        },
+        {
+          "title": "Volný čas",
+          "text": "Příspěvek 2 500 Kč dětem a seniorům. Podpora pořadatelů, živější kultura, sport a večerní život."
+        },
+        {
+          "title": "Další rozvoj",
+          "text": "Péče o místní části, ochlazování veřejných ploch, skatepark a řešení Javorového; transparentnější práce radnice."
+        }
+      ],
+      "caution": "Frőmmer v rozhovoru u terminálu mluví o přípravě během mandátu, nikoli o dokončení. U příspěvku je nutné dopracovat podmínky a četnost; mediální odhady nákladů nejsou schválený rozpočet.",
+      "sources": [
+        "PN1",
+        "PN2",
+        "PN4",
+        "PN5",
+        "PN6",
+        "PN3",
+        "PN7",
+        "PN",
+        "M9",
+        "M4"
+      ]
+    },
+    {
+      "code": "A",
+      "partyId": 5,
+      "name": "ANO 2011",
+      "seats": 5,
+      "intro": "Základem je volební leták dodaný zadavatelem. Podrobnější návrhy Jana Mazocha jsou uvedeny u něj jako mediální vyjádření, nikoli jako samostatné sliby všech pěti zvolených.",
+      "points": [
+        {
+          "title": "Účast občanů",
+          "text": "Pravidelná komunikace, veřejné představení velkých investic před schválením, prostor pro občany a přenosy zastupitelstva."
+        },
+        {
+          "title": "Místní části a generace",
+          "text": "Silnější osadní výbory s prostředky na malé projekty, studentská a seniorská rada, sousedské a dobrovolnické aktivity."
+        },
+        {
+          "title": "Majetek a investice",
+          "text": "Dlouhodobý plán obnovy, připravené projekty, dotace a zachování strategického majetku v městském vlastnictví."
+        },
+        {
+          "title": "Školy a život města",
+          "text": "Bezpečné školy, spolupráce škol s firmami a spolky, hasiči, zeleň a příměstské lesy, sport, tradice, kultura a významné akce."
+        }
+      ],
+      "caution": "Leták neuvádí samostatný detailní model dostupného bydlení ani pevné částky pro kulturní podporu. Tyto podrobnosti nelze přičítat všem členům kandidátky z rozhovoru jejího lídra.",
+      "sources": [
+        "PA"
+      ]
+    },
+    {
+      "code": "O",
+      "partyId": 3,
+      "name": "Osobnosti pro Třinec",
+      "seats": 4,
+      "intro": "Program propojuje dostupné bydlení, podporu komunit a podnikání, péči o generace a konkrétní záměry pro městské části.",
+      "points": [
+        {
+          "title": "Rodiny a bydlení",
+          "text": "Nová výstavba a startovací bydlení; příspěvek 1 000 Kč na dětské kroužky a tábory. Outdoor centrum, letní scéna a otevřená školní hřiště."
+        },
+        {
+          "title": "Komunity a podnikání",
+          "text": "Podpora spolků, komunitních akcí, programu Podnikej v Třinci, coworkingu, začínajících podnikatelů a kontaktů firem."
+        },
+        {
+          "title": "Péče a senioři",
+          "text": "Domácí péče a podpora pečujících, kapacity péče a dostupnější psychologická pomoc. Centrum aktivních seniorů na Smetanově ulici."
+        },
+        {
+          "title": "Místní části",
+          "text": "100 mil. Kč za mandát na pěší a cyklistické trasy. Objednávané mikrobusy za běžné jízdné, vodní infrastruktura, podpora domácích čistíren a práce s osadními výbory."
+        },
+        {
+          "title": "Javorový",
+          "text": "Chata a vrchol v městském vlastnictví, citlivá rekonstrukce a veřejná volba z architektonických návrhů. Výslovný nesouhlas s obnovou sjezdovek a lyžování."
+        }
+      ],
+      "caution": "Lucie Fremrová nebyla zvolena. Její předvolební odpovědi jsou případně dokladem postoje kandidátky, nikoli osobním závazkem čtyř zvolených členů.",
+      "sources": [
+        "PO3",
+        "PO",
+        "PO4",
+        "PO1",
+        "PO2"
+      ]
+    },
+    {
+      "code": "K",
+      "partyId": 4,
+      "name": "KDU-ČSL",
+      "seats": 2,
+      "intro": "Společný program je na šesti volebních kartách; zpravodaj obsahuje také podepsané osobní články Wanii a Golasowské.",
+      "points": [
+        {
+          "title": "Péče a prevence",
+          "text": "Stabilní sociální služby, duševní zdraví a kontakt s osamělými seniory. Školní prevence a dovednosti pro běžný život."
+        },
+        {
+          "title": "Bezpečný veřejný prostor",
+          "text": "Omezení těžkého tranzitu v obytných částech, chodníky, přechody a osvětlení; účinnější hlídky a řešení vandalismu."
+        },
+        {
+          "title": "Kultura a mladí",
+          "text": "Zázemí pro hudbu, tanec a volný čas; místní spolky, kulturní strategie a otevírání školních sportovišť."
+        },
+        {
+          "title": "Hospodaření a prostředí",
+          "text": "Úspory a obnovitelné zdroje na městských budovách, zeleň a ochlazování, pořádek u odpadových míst. Příprava budoucí pohřební kapacity."
+        },
+        {
+          "title": "Spolupráce",
+          "text": "Zapojení osadních výborů a podpora místních podnikatelů i občanských aktivit."
+        }
+      ],
+      "caution": "Příprava nového pohřebiště není závazek dokončit hřbitov v tomto mandátu. Podepsané články se připisují jejich autorům, ne automaticky každému členovi kandidátky.",
+      "sources": [
+        "PK",
+        "PK1"
+      ]
+    },
+    {
+      "code": "S",
+      "partyId": 6,
+      "name": "SPOLEČNĚ PRO TŘINEC",
+      "seats": 2,
+      "intro": "Společný program má jedenáct bodů. Vyjadřuje návaznost na fungující projekty a požadavek posuzovat náklady i provoz.",
+      "points": [
+        {
+          "title": "Bydlení a péče",
+          "text": "Pozemky a spolupráce při dostupném bydlení včetně družstevního; terénní služby a podpora pečujících."
+        },
+        {
+          "title": "Doprava a bezpečnost",
+          "text": "Prověření VIA Sosna přes Vendryni, parkování podle místních potřeb, více policejních hlídek, prevence a hasiči."
+        },
+        {
+          "title": "Javorový a hospodaření",
+          "text": "Partnerský rozvoj Javorového, příprava investic a posouzení budoucích provozních nákladů."
+        },
+        {
+          "title": "Správa a podnikání",
+          "text": "Digitální vyřizování agend, odpovědné využití AI, úřední výdejní box, silnější osadní výbory a podmínky pro podnikatele."
+        }
+      ],
+      "caution": "VIA Sosna vyžaduje podklady, financování a dohodu s Vendryní. PPP na Javorovém je navržený model spolupráce, nikoli uzavřená smlouva.",
+      "sources": [
+        "PS"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "1-1",
+      "name": "Marian Plucnar",
+      "partyId": 1,
+      "partyCode": "V",
+      "age": 55,
+      "residence": "Oldřichovice",
+      "profession": "zástupce ředitelky Gymnázia Třinec, předseda Osadního výboru Třinec-Oldřichovice",
+      "votes": 3260,
+      "summary": "Bydlení, návrat mladých, dostupné služby a včasné zapojení obyvatel do rozhodování.",
+      "topics": [
+        "housing",
+        "young",
+        "care",
+        "governance",
+        "culture",
+        "safety",
+        "transport",
+        "javorovy"
+      ],
+      "personal": "V médiích prosazuje startovací a dostupné městské byty, péči o seniory a návrat mladých. Chce zázemí pro jejich kulturu, víkendová dopravní spojení, veřejné podklady a včasnou účast obyvatel. Při bezpečnosti spojuje hlídky se sociální pomocí; odmítá pouhé přesouvání lidí bez domova.",
+      "partyContext": "Společné pilíře V rozšiřují tento směr o místní infrastrukturu, energetiku, majetek a krizovou připravenost. Jeho mediální podpora zimního využití Javorového za vhodných podmínek je doplněk, ne samostatný programový pilíř.",
+      "evidence": "Po volbách jmenuje komunikaci a bydlení mezi hlavními úkoly. Ochota jednat se všemi zvolenými subjekty není oznámená koaliční dohoda.",
+      "missingPersonal": false,
+      "sources": [
+        "CV",
+        "M3",
+        "M6",
+        "M8",
+        "M11",
+        "M12",
+        "M1"
+      ]
+    },
+    {
+      "id": "1-2",
+      "name": "Ewa Troszok",
+      "partyId": 1,
+      "partyCode": "V",
+      "age": 46,
+      "residence": "Dolní Líštná",
+      "profession": "zástupce ředitele Polské základní školy v Českém Těšíně",
+      "votes": 3121,
+      "summary": "Zapojování obyvatel mezi volbami a využívání místních nápadů a zkušeností.",
+      "topics": [
+        "governance"
+      ],
+      "personal": "Chce zapojovat obyvatele i mezi volbami a využívat místní nápady i zkušenosti ze sportu, vzdělávání a technologií.",
+      "partyContext": "Kandidátka V nabízí účast občanů, sousedské projekty a podporu komunit. Konkrétní obecní projekt ve vlastním medailonku neurčuje.",
+      "evidence": "Osobní profil dokládá přístup k zapojování lidí; neurčuje rozpočet, termín ani svěřenou oblast vedení města.",
+      "missingPersonal": false,
+      "sources": [
+        "CV"
+      ]
+    },
+    {
+      "id": "1-3",
+      "name": "Milan Matlák",
+      "partyId": 1,
+      "partyCode": "V",
+      "age": 45,
+      "residence": "Lyžbice",
+      "profession": "vývojář mobilních aplikací",
+      "votes": 2716,
+      "summary": "Praktická řešení, hledání souvislostí a lepší každodenní život ve městě.",
+      "topics": [],
+      "personal": "Do práce pro město chce přenést hledání souvislostí, praktických řešení a zlepšování každodenního života.",
+      "partyContext": "Digitální komunikaci a dostupná data popisuje společný program V. Z jeho profese vývojáře nelze odvodit osobní slib nové městské aplikace.",
+      "evidence": "Vlastní medailonek neobsahuje pojmenovaný investiční nebo digitální projekt pro mandát 2026 až 2030.",
+      "missingPersonal": false,
+      "sources": [
+        "CV"
+      ]
+    },
+    {
+      "id": "1-4",
+      "name": "Ingrid Staszková",
+      "partyId": 1,
+      "partyCode": "V",
+      "age": 57,
+      "residence": "Dolní Líštná",
+      "profession": "ředitelka stavební společnosti",
+      "votes": 2636,
+      "summary": "Promyšlený rozvoj všech částí, bezpečné cesty do školy, chodníky a zastávky.",
+      "topics": [
+        "districts",
+        "transport",
+        "safety"
+      ],
+      "personal": "Zdůrazňuje promyšlený rozvoj všech částí, odpovědné plánování a každodenní potřeby jako bezpečné cesty do školy, chodníky a zastávky.",
+      "partyContext": "Na to navazuje pilíř V pro místní části a rozhodování o investicích podle potřeb. Konkrétní stavbu její profil neurčuje.",
+      "evidence": "Jde o osobní tematický důraz. Konkrétní pořadí oprav, financování a termíny v medailonku chybějí.",
+      "missingPersonal": false,
+      "sources": [
+        "CV"
+      ]
+    },
+    {
+      "id": "1-5",
+      "name": "Přemysl Zbončák",
+      "partyId": 1,
+      "partyCode": "V",
+      "age": 44,
+      "residence": "Dolní Líštná",
+      "profession": "středoškolský učitel",
+      "votes": 2868,
+      "summary": "Otevřená správa, respektující komunikace a účast občanů při rozvoji města.",
+      "topics": [
+        "governance"
+      ],
+      "personal": "Chce otevřenou správu, respektující komunikaci a účast občanů při rozvoji města.",
+      "partyContext": "Program V tento směr konkretizuje zveřejňováním podkladů a participací. Z učitelské profese nelze vyvozovat jeho samostatný školský projekt.",
+      "evidence": "Medailonek dokládá směr veřejné správy; neobsahuje vlastní seznam staveb, částek nebo termínů.",
+      "missingPersonal": false,
+      "sources": [
+        "CV"
+      ]
+    },
+    {
+      "id": "1-6",
+      "name": "Martin Dinh",
+      "partyId": 1,
+      "partyCode": "V",
+      "age": 27,
+      "residence": "Lyžbice",
+      "profession": "lektor matematiky a chemie",
+      "votes": 2613,
+      "summary": "Návrat vrstevníků do Třince a skutečně fungující chytré město.",
+      "topics": [
+        "young",
+        "digital"
+      ],
+      "personal": "Chce motivovat vrstevníky k návratu a dosáhnout skutečně fungujícího chytrého města.",
+      "partyContext": "Program V nabízí bydlení, zázemí pro mladé a otevřenou komunikaci. Tyto nástroje jsou společné kandidátce, ne jeho samostatným projektovým seznamem.",
+      "evidence": "Pojem chytrého města v osobním profilu není doplněn vlastní konkrétní službou, aplikací ani rozpočtem.",
+      "missingPersonal": false,
+      "sources": [
+        "CV"
+      ]
+    },
+    {
+      "id": "1-7",
+      "name": "Vlastimil Mec",
+      "partyId": 1,
+      "partyCode": "V",
+      "age": 53,
+      "residence": "Dolní Líštná",
+      "profession": "všeobecný chirurg, Nemocnice AGEL Třinec-Podlesí",
+      "votes": 2808,
+      "summary": "Hledání příčin problémů, odpovědnost za rozhodnutí a uskutečnění společného programu.",
+      "topics": [
+        "governance"
+      ],
+      "personal": "Prosazuje hledání příčin problémů, účinná řešení a odpovědnost za rozhodnutí; výslovně se hlásí k uskutečnění programu V.",
+      "partyContext": "Sociální služby a příprava hospice patří kandidátce V. Jeho lékařská profese sama nedokládá osobní příslib zdravotnického zařízení.",
+      "evidence": "Medailonek vyjadřuje způsob rozhodování a podporu společného programu; samostatný městský projekt nepojmenovává.",
+      "missingPersonal": false,
+      "sources": [
+        "CV"
+      ]
+    },
+    {
+      "id": "1-8",
+      "name": "Franciszek Humel",
+      "partyId": 1,
+      "partyCode": "V",
+      "age": 35,
+      "residence": "Lyžbice",
+      "profession": "hudební skladatel, pedagog a dramaturg",
+      "votes": 2619,
+      "summary": "Trvalé místo kultury v životě města a prostor pro její další rozvoj.",
+      "topics": [
+        "culture"
+      ],
+      "personal": "Chce prosazovat trvalé místo kultury v životě města a prostor pro její další rozvoj.",
+      "partyContext": "Kandidátka V nabízí zázemí pro spolky a mladé i transparentní podporu. Jeho důraz je širší než jednotlivá kulturní investice.",
+      "evidence": "Osobní profil neuvádí vlastní kulturní zařízení, rozpočtovou částku nebo termín. Kulturní důraz je přesto výslovně doložen.",
+      "missingPersonal": false,
+      "sources": [
+        "CV"
+      ]
+    },
+    {
+      "id": "7-1",
+      "name": "Ivan Frőmmer",
+      "partyId": 7,
+      "partyCode": "N",
+      "age": 64,
+      "residence": "Lyžbice",
+      "profession": "ředitel společnosti",
+      "votes": 2543,
+      "summary": "Dostupné bydlení, bezplatná MHD, příspěvek na aktivity a příprava terminálu.",
+      "topics": [
+        "housing",
+        "transport",
+        "young",
+        "culture",
+        "governance",
+        "business"
+      ],
+      "personal": "Prosazuje dostupné nájemní bydlení, atraktivnější práci a živější město. Chce bezplatnou MHD, příspěvek na aktivity a přípravu terminálu. V médiích doplňuje otevření podkladů radnice, pevný čas pro občany a vyváženější městský zpravodaj; pro večerní podniky navrhuje styčnou osobu a úpravu pravidel.",
+      "partyContext": "Sedmička N obsahuje hlavní dopravní, bytové a volnočasové návrhy. Jeho dlouhodobá koncepce centra a terminálu přesahuje jeden mandát.",
+      "evidence": "Odhad 20 mil. Kč ročně pro MHD je jeho mediální odhad, ne nezávisle ověřený rozpočet. U terminálu mluví o přípravě, nikoli dokončení do roku 2030.",
+      "missingPersonal": false,
+      "sources": [
+        "CN1",
+        "M4",
+        "M7",
+        "M9",
+        "M10"
+      ]
+    },
+    {
+      "id": "7-2",
+      "name": "Radim Turek",
+      "partyId": 7,
+      "partyCode": "N",
+      "age": 55,
+      "residence": "Oldřichovice",
+      "profession": "bezpečnostní analytik",
+      "votes": 2304,
+      "summary": "Transparentní řízení, dlouhodobá koncepce a rovnoměrné investice mezi centrem a částmi.",
+      "topics": [
+        "governance",
+        "districts",
+        "finance"
+      ],
+      "personal": "Chce transparentní a odpovědné řízení, dlouhodobou koncepci a rovnoměrné investice mezi centrem a příměstskými částmi. Velká rozhodnutí mají vycházet z předem daných priorit, podkladů a potřeb obyvatel.",
+      "partyContext": "Program N nabízí konkrétní dopravní, bytové a bezpečnostní zásahy. Turekův osobní důraz se týká způsobu jejich výběru a řízení.",
+      "evidence": "V medailonku nepojmenovává vlastní bezpečnostní projekt; tuto oblast nelze odvozovat pouze z jeho povolání.",
+      "missingPersonal": false,
+      "sources": [
+        "CN2"
+      ]
+    },
+    {
+      "id": "7-3",
+      "name": "Radana Šoltésová",
+      "partyId": 7,
+      "partyCode": "N",
+      "age": 63,
+      "residence": "Staré Město",
+      "profession": "lékařka",
+      "votes": 2318,
+      "summary": "Větší hlas mladých, spolupráce napříč zastupitelstvem a respekt ve veřejné debatě.",
+      "topics": [
+        "young",
+        "governance"
+      ],
+      "personal": "Chce spolupráci napříč zastupitelstvem, větší hlas mladých při rozhodování a propojení jejich nápadů se zkušenostmi starších. Zdůrazňuje respekt ve veřejné debatě.",
+      "partyContext": "Program N zahrnuje aktivity dětí a seniorů i rozvoj bydlení. Její vlastní profil klade důraz na účast a spolupráci, nikoli na konkrétní zdravotní službu.",
+      "evidence": "Samostatný zdravotnický záměr pro město v medailonku není uveden. Lékařská praxe je životopisný údaj.",
+      "missingPersonal": false,
+      "sources": [
+        "CN3"
+      ]
+    },
+    {
+      "id": "7-4",
+      "name": "Milan Klepacz",
+      "partyId": 7,
+      "partyCode": "N",
+      "age": 67,
+      "residence": "Lyžbice",
+      "profession": "ekonom",
+      "votes": 2128,
+      "summary": "Transparentní rozpočet, víceletý finanční plán a férová podpora sportu a kultury.",
+      "topics": [
+        "finance",
+        "governance",
+        "culture"
+      ],
+      "personal": "Chce kontrolovat hospodaření, prosazovat transparentní rozpočet a stabilní víceletý finanční plán. Významné nájmy, směny a majetková rozhodnutí mají projít ekonomickým posouzením. Výslovně chce narovnat podporu sportu a kultury.",
+      "partyContext": "Společné návrhy N na MHD, příspěvky či terminál vytvářejí konkrétní rozpočtové nároky. Jeho profil však neobsahuje vlastní propočet těchto opatření.",
+      "evidence": "Je doložen ekonomický postup a oblast grantů; nikoli určené složení rozpočtu nebo schválený zdroj financování.",
+      "missingPersonal": false,
+      "sources": [
+        "CN4"
+      ]
+    },
+    {
+      "id": "7-7",
+      "name": "Roman Vondráček",
+      "partyId": 7,
+      "partyCode": "N",
+      "age": 39,
+      "residence": "Dolní Líštná",
+      "profession": "profesionální hasič",
+      "votes": 2341,
+      "summary": "Dobrovolní hasiči, dětské organizace, sportovní využití Olše a budoucnost Javorového.",
+      "topics": [
+        "safety",
+        "young",
+        "culture",
+        "javorovy",
+        "governance"
+      ],
+      "personal": "Chce lepší komunikaci a spolupráci zastupitelů, podporu dobrovolných hasičů, dětských organizací a sportu. Jmenuje rekreační a sportovní využití okolí Olše a smysluplnou budoucnost chaty na Javorovém.",
+      "partyContext": "N společně nabízí bezpečnější ulice, podporu aktivit a řešení Javorového. Jeho vlastní medailonek přidává konkrétní pozornost k řece a dobrovolným hasičům.",
+      "evidence": "U Olše ani Javorového neurčuje podobu stavby, náklady nebo model provozu. Vlastní tematický zájem je doložen.",
+      "missingPersonal": false,
+      "sources": [
+        "CN5"
+      ]
+    },
+    {
+      "id": "7-13",
+      "name": "Anna Laššáková",
+      "partyId": 7,
+      "partyCode": "N",
+      "age": 68,
+      "residence": "Lyžbice",
+      "profession": "dětská lékařka",
+      "votes": 2367,
+      "summary": "Naslouchání obyvatelům, otevřená komunikace a potřeby rodin i místních částí.",
+      "topics": [
+        "governance",
+        "young",
+        "districts"
+      ],
+      "personal": "Chce poctivě zastupovat obyvatele, otevřeně komunikovat a rozhodovat podle potřeb rodin i jednotlivých částí. Zdůrazňuje prostředí pro všechny generace a naslouchání lidem.",
+      "partyContext": "Program N pracuje s bydlením a podporou dětských i seniorských aktivit. Její osobní závazek je zejména způsob zastupování a rozhodování.",
+      "evidence": "Samostatný pediatrický nebo zdravotnický projekt pro příští mandát v medailonku není uveden.",
+      "missingPersonal": false,
+      "sources": [
+        "CN6"
+      ]
+    },
+    {
+      "id": "5-1",
+      "name": "Jan Mazoch",
+      "partyId": 5,
+      "partyCode": "A",
+      "age": 41,
+      "residence": "Staré Město",
+      "profession": "oblastní manažer",
+      "votes": 1722,
+      "summary": "Obnova bytového fondu a městského majetku, včasné zapojení občanů a živější město.",
+      "topics": [
+        "housing",
+        "finance",
+        "governance",
+        "culture",
+        "safety"
+      ],
+      "personal": "V rozhovorech upřednostňuje opravu a využití městského bytového fondu, přehled o majetku a plán obnovy. Chce občany zapojovat před velkými rozhodnutími. Přidává koordinaci sportovní podpory, silnější hlídky a spolupráci s neziskovými organizacemi; pro víkendový provoz podniků navrhuje prověřit posun limitu do půlnoci či jedné hodiny.",
+      "partyContext": "Leták A obsahuje otevřenost, místní projekty, obnovu majetku a kulturní i spolkový život. Podrobné bytové a provozní návrhy jsou jeho mediálním doplněním.",
+      "evidence": "Jako možný model uvádí kombinaci dostupných bytů a vybraných tržně pronajímaných jednotek. Rozdělení bytů a využití výnosů nejsou schválená pravidla.",
+      "missingPersonal": false,
+      "sources": [
+        "M2",
+        "M7",
+        "M8",
+        "M9",
+        "M1"
+      ]
+    },
+    {
+      "id": "5-2",
+      "name": "Stanislav Młynek",
+      "partyId": 5,
+      "partyCode": "A",
+      "age": 41,
+      "residence": "Dolní Líštná",
+      "profession": "projektový manažer",
+      "votes": 1678,
+      "summary": "Samostatné osobní komunální závazky se v podkladech nepodařilo doložit.",
+      "topics": [],
+      "personal": "V prověřených veřejných podkladech se nepodařilo doložit samostatné osobní komunální závazky pro období 2026 až 2030.",
+      "partyContext": "Program kandidátky A obsahuje participaci, místní projekty, plán obnovy majetku, školy, zeleň a podporu společenského života. Z těchto bodů nelze určit jeho vlastní pořadí témat.",
+      "evidence": "Oficiální kandidátní údaj projektový manažer neurčuje jeho budoucí gesci ani osobní investiční plán. Mazochovy mediální návrhy mu nejsou připisovány.",
+      "missingPersonal": true,
+      "sources": [
+        "R2",
+        "PA0"
+      ]
+    },
+    {
+      "id": "5-3",
+      "name": "Dominik Klimek",
+      "partyId": 5,
+      "partyCode": "A",
+      "age": 28,
+      "residence": "Konská",
+      "profession": "středoškolský učitel/rozhodčí v ledním hokeji",
+      "votes": 1718,
+      "summary": "Samostatné osobní komunální závazky se v podkladech nepodařilo doložit.",
+      "topics": [],
+      "personal": "V prověřených veřejných podkladech se nepodařilo doložit samostatné osobní komunální závazky pro období 2026 až 2030.",
+      "partyContext": "Společný program A zahrnuje školy, propojení s firmami a spolky, sport i otevřenou správu. Jeho osobní důraz nebo konkrétní návrh z něj nelze vyčíst.",
+      "evidence": "Povolání učitele a hokejového rozhodčího nedokládá samostatný školský či sportovní slib pro nový mandát.",
+      "missingPersonal": true,
+      "sources": [
+        "R2",
+        "PA0"
+      ]
+    },
+    {
+      "id": "5-4",
+      "name": "Silvie Cholewiková",
+      "partyId": 5,
+      "partyCode": "A",
+      "age": 48,
+      "residence": "Horní Líštná",
+      "profession": "specialista životního prostředí",
+      "votes": 1692,
+      "summary": "Samostatné osobní komunální závazky se v podkladech nepodařilo doložit.",
+      "topics": [],
+      "personal": "V prověřených veřejných podkladech se nepodařilo doložit samostatné osobní komunální závazky pro období 2026 až 2030.",
+      "partyContext": "Program A obsahuje péči o zeleň, lesy a dlouhodobou obnovu majetku. Z těchto společných bodů nelze odvodit její osobní seznam ekologických projektů.",
+      "evidence": "Údaj specialistka životního prostředí je profesní informace. Starší odborné vystoupení nebo již uskutečněný projekt samo není slibem pro nový mandát.",
+      "missingPersonal": true,
+      "sources": [
+        "R2",
+        "PA0"
+      ]
+    },
+    {
+      "id": "5-5",
+      "name": "Zdeněk Matušek",
+      "partyId": 5,
+      "partyCode": "A",
+      "age": 48,
+      "residence": "Osůvky",
+      "profession": "lékař/senátor",
+      "votes": 1749,
+      "summary": "Samostatné osobní komunální závazky se v podkladech nepodařilo doložit.",
+      "topics": [],
+      "personal": "V prověřených veřejných podkladech se nepodařilo doložit samostatné osobní komunální závazky pro období 2026 až 2030.",
+      "partyContext": "Program kandidátky A se týká veřejné správy, městského majetku, místních projektů a života všech generací. Jeho vlastní komunální priority v něm nejsou odděleny.",
+      "evidence": "Oficiálně uvedené role lékaře a senátora neurčují osobní komunální zdravotnický program. Celostátní politická činnost není automaticky slib pro Třinec.",
+      "missingPersonal": true,
+      "sources": [
+        "R2",
+        "PA0"
+      ]
+    },
+    {
+      "id": "3-2",
+      "name": "Adam Kurzok",
+      "partyId": 3,
+      "partyCode": "O",
+      "age": 44,
+      "residence": "Oldřichovice",
+      "profession": "podnikatel v e-commerce",
+      "votes": 1509,
+      "summary": "Podnikavost, strategické plánování, klimatická odolnost a kulturní zázemí pro mladé.",
+      "topics": [
+        "business",
+        "climate",
+        "safety",
+        "culture",
+        "young"
+      ],
+      "personal": "Vlastní profil jmenuje podnikavost, strategické plánování, klimatickou odolnost a bezpečný veřejný prostor. Podepsaný kulturní článek přidává zázemí pro mladé, skatepark a zkušebny, pestřejší dramaturgii Trisie a rozvoj kulturních domů i cestovního ruchu.",
+      "partyContext": "O společně nabízí podnikatelské zázemí, komunitní akce, podporu rodin a konkrétní místní projekty. Jeho kulturní článek je osobní doplnění tohoto rámce.",
+      "evidence": "Přípravu strategie Třinec 2030+ popisuje jako dosavadní práci. Nemění se tím automaticky na nový závazek dokončit všechny cíle strategie do roku 2030.",
+      "missingPersonal": false,
+      "sources": [
+        "CO1",
+        "PO5"
+      ]
+    },
+    {
+      "id": "3-4",
+      "name": "Marek Štěrba",
+      "partyId": 3,
+      "partyCode": "O",
+      "age": 35,
+      "residence": "Lyžbice",
+      "profession": "praktický lékař",
+      "votes": 1643,
+      "summary": "Nejprve poznat fungování města, naslouchat a hledat řešení bez velkých nepodložených slibů.",
+      "topics": [
+        "governance"
+      ],
+      "personal": "Chce nejprve poznat fungování města, naslouchat a společně hledat užitečná řešení. Výslovně odmítá předkládat velké sliby bez podkladů a klade důraz na praktický přínos práce.",
+      "partyContext": "Program O obsahuje péči, bydlení, komunitní a podnikatelské aktivity. Osobní profil si z tohoto programu nevybírá konkrétní projekt ani zdravotnickou službu.",
+      "evidence": "Nejde o chybějící medailonek: doložen je vědomě obecný přístup. Povolání praktického lékaře není samostatným zdravotnickým závazkem.",
+      "missingPersonal": false,
+      "sources": [
+        "CO2"
+      ]
+    },
+    {
+      "id": "3-5",
+      "name": "Martina Wolna",
+      "partyId": 3,
+      "partyCode": "O",
+      "age": 52,
+      "residence": "Lyžbice",
+      "profession": "ředitelka knihovny",
+      "votes": 1785,
+      "summary": "Profesionální řízení kultury a plán založený na datech pro účelné rozdělování peněz.",
+      "topics": [
+        "culture",
+        "finance"
+      ],
+      "personal": "Chce profesionální řízení kultury, její významnější roli v rozvoji města a plán založený na datech. Ten má být podkladem pro účelné rozdělování peněz. Kulturu propojuje se vzděláváním, otevřeností a odolností společnosti.",
+      "partyContext": "O společně nabízí kulturní a komunitní akce i nové zázemí. Její vlastní důraz na plánování a data se týká způsobu řízení a financování kultury.",
+      "evidence": "Lavičku Václava Havla zmiňuje jako právě připravovanou aktivitu knihovny. Je oddělena od jejího obecnějšího politického záměru pro nový mandát.",
+      "missingPersonal": false,
+      "sources": [
+        "CO3"
+      ]
+    },
+    {
+      "id": "3-7",
+      "name": "Regina Eichler",
+      "partyId": 3,
+      "partyCode": "O",
+      "age": 52,
+      "residence": "Lyžbice",
+      "profession": "ředitelka kina",
+      "votes": 1500,
+      "summary": "Kvalitní a cenově dostupné volnočasové vyžití pro všechny generace.",
+      "topics": [
+        "culture",
+        "young"
+      ],
+      "personal": "Chce kvalitní a cenově dostupné volnočasové vyžití od dětí po seniory. Usiluje o atraktivitu města pro návštěvníky i o to, aby místní neměli důvod odcházet; jako příklad přístupu uvádí kino Kosmos.",
+      "partyContext": "O společně nabízí kulturu, komunitní akce a podporu generací. Její osobní profil se soustředí na dostupnost a kvalitu nabídky.",
+      "evidence": "Kino slouží v profilu jako dosavadní příklad, nikoli jako nově slíbená stavba. Vlastní investiční částku a termín neuvádí.",
+      "missingPersonal": false,
+      "sources": [
+        "CO4"
+      ]
+    },
+    {
+      "id": "4-1",
+      "name": "Wiesław Wania",
+      "partyId": 4,
+      "partyCode": "K",
+      "age": 51,
+      "residence": "Osůvky",
+      "profession": "ředitel firmy, radní města Třince",
+      "votes": 1221,
+      "summary": "Energetické úspory, ochlazování města, odpadová místa a příprava pohřební kapacity.",
+      "topics": [
+        "climate",
+        "care",
+        "culture",
+        "districts",
+        "young",
+        "housing",
+        "javorovy"
+      ],
+      "personal": "Podepsané články ve zpravodaji slibují pokračovat v energetických úsporách městských budov, obnovitelných zdrojích a řízení spotřeby. Chce ochlazovat město, řešit odpadová místa a připravit novou pohřební kapacitu. Jmenuje také stabilitu sociálních služeb, kulturní strategii, místní části a podporu národnostního školství i spolků.",
+      "partyContext": "Karty K uvádějí sociální péči, prevenci, kulturu, bezpečnost a prostředí. Podrobný energetický postup i polské školství jsou doložené přímo u Wanii v podepsaném textu.",
+      "evidence": "Pohřebiště má v letech 2026 až 2030 připravit pro budoucnost, ne nutně otevřít. Konkrétní bytové a javorové varianty v rozhlasu mají podmínku ekonomické výhodnosti a městské kontroly.",
+      "missingPersonal": false,
+      "sources": [
+        "CK1",
+        "PK1",
+        "M1"
+      ]
+    },
+    {
+      "id": "4-2",
+      "name": "Pavla Golasowská",
+      "partyId": 4,
+      "partyCode": "K",
+      "age": 62,
+      "residence": "Oldřichovice",
+      "profession": "náměstkyně pro sociální prevenci v Třinci",
+      "votes": 1363,
+      "summary": "Stabilní sociální služby, prevence, sousedská setkání a podpora místních komunit.",
+      "topics": [
+        "care",
+        "safety",
+        "districts",
+        "young"
+      ],
+      "personal": "Chce udržet stabilní síť terénních, ambulantních i pobytových sociálních služeb podle potřeb obyvatel. Podepsaný článek uvádí pokračování sousedských setkání a podpory drobných akcí v místních částech. Jmenuje prevenci u lidí bez domova, programy Na cestě z ulice a Stravenka i osvětu pro starší žáky.",
+      "partyContext": "Program K nabízí stabilitu péče, prevenci a zapojení místních komunit. Její vlastní profil a článek tento rámec rozpracovávají zejména v sociální oblasti.",
+      "evidence": "Část uváděných aktivit již probíhá a má pokračovat. Není správné je všechny prezentovat jako nově vznikající služby nebo jako nový sociální systém.",
+      "missingPersonal": false,
+      "sources": [
+        "CK2",
+        "PK1"
+      ]
+    },
+    {
+      "id": "6-1",
+      "name": "Robin Lotko",
+      "partyId": 6,
+      "partyCode": "S",
+      "age": 34,
+      "residence": "Karpentná",
+      "profession": "OSVČ, zastupitel města",
+      "votes": 955,
+      "summary": "Družstevní bydlení, partnerský rozvoj Javorového, prevence a vstřícnější správa.",
+      "topics": [
+        "housing",
+        "javorovy",
+        "safety",
+        "governance",
+        "business",
+        "transport"
+      ],
+      "personal": "V médiích rozpracovává družstevní bydlení s městskými pozemky a zapojením investorů. Na Javorovém chce prověřit partnerství se soukromým kapitálem při zachování kontroly města nad strategickými pozemky. Prosazuje hlídky i sociální prevenci, vstřícnější komunikaci a podmínky pro podnikatele; nové velké předělání náměstí nepovažuje za prioritu.",
+      "partyContext": "Program S obsahuje tyto oblasti a navíc digitální agendy, provozní náklady investic, parkování, osadní výbory a hasiče.",
+      "evidence": "Družstevní a partnerský model jsou návrhy k ověření, ne sjednané projekty. U VIA Sosna přes Vendryni podmiňuje postup dohodou a podklady.",
+      "missingPersonal": false,
+      "sources": [
+        "M5",
+        "M1",
+        "M8",
+        "M9",
+        "M10"
+      ]
+    },
+    {
+      "id": "6-2",
+      "name": "Dominika Kosová",
+      "partyId": 6,
+      "partyCode": "S",
+      "age": 34,
+      "residence": "Tyra",
+      "profession": "jednatelka společnosti",
+      "votes": 1097,
+      "summary": "Samostatné osobní komunální závazky se v podkladech nepodařilo doložit.",
+      "topics": [],
+      "personal": "V prověřených veřejných podkladech se nepodařilo doložit samostatné osobní komunální závazky pro období 2026 až 2030.",
+      "partyContext": "Program kandidátky S obsahuje bydlení, sociální služby, partnerský rozvoj Javorového, dopravu a správu města. Její osobní pořadí témat z něho nelze určit.",
+      "evidence": "Dohledané profily uvádějí identitu, povolání a kandidaturu. Lotkovy mediální návrhy jí nejsou automaticky připisovány.",
+      "missingPersonal": true,
+      "sources": [
+        "CS2",
+        "R2"
+      ]
+    }
+  ],
+  "coalitions": [
+    {
+      "id": 1,
+      "title": "Volte Třinec a NEZÁVISLÍ Třinec",
+      "parties": [
+        "V",
+        "N"
+      ],
+      "seats": 14,
+      "reserve": 0,
+      "common": "Obě kandidátky chtějí dostupnější bydlení, lepší spojení a místní služby, živější město, zapojení obyvatel a spravedlivější péči o části Třince. V bydlení lze navázat opravami a využitím fondu, v dopravě návazností spojů, v kultuře zázemím pro mladé a místní pořadatele.",
+      "people": "Plucnar a Frőmmer se shodují na potřebě udržet mladé a řešit bydlení. Turek a Staszková zdůrazňují plánování a místní části. Klepaczův důraz na transparentní finance může doplnit otevřenou správu V; jeho pravidla pro sport a kulturu souvisejí s podporou kultury, kterou výslovně uvádí Humel.",
+      "negotiate": "N požaduje MHD zdarma a příspěvek 2 500 Kč; V takové plošné částky neslibuje. Nutná je dohoda o nákladech, příjemcích a dopadu na investice. U bezdomovectví není doložena shoda na prostředku: Frőmmer navrhuje i vykazování z centra a omezení přílivu, Plucnar odmítá pouhé přesouvání lidí. Je třeba sjednat pravidla, zákonné pravomoci a návaznost služeb. U terminálu odlišit přípravu v mandátu od mnohaleté realizace.",
+      "conclusion": "Rozbor ukazuje širokou návaznost témat, ale ne hotovou dohodu o financování a bezpečnostním postupu. Přesných 14 mandátů znamená nulovou rezervu nad většinou.",
+      "sources": [
+        "PV1",
+        "PV2",
+        "PV3",
+        "PN1",
+        "PN2",
+        "PN3",
+        "PN4",
+        "PN6",
+        "CN2",
+        "CN4",
+        "CV",
+        "M3",
+        "M4",
+        "M8"
+      ],
+      "peopleIds": [
+        "1-1",
+        "7-1",
+        "7-2",
+        "1-4",
+        "7-4",
+        "1-8"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Volte Třinec s ANO a Osobnostmi",
+      "parties": [
+        "V",
+        "A",
+        "O"
+      ],
+      "seats": 17,
+      "reserve": 3,
+      "common": "Všechny tři nabízejí účast obyvatel, podporu místních komunit, rodin a kulturního života. Dostupné bydlení má V a O v programu, Mazoch je doplňuje v médiích. Společná je péče o majetek a veřejný prostor, ale konkrétní bytový model musí teprve vzniknout.",
+      "people": "Plucnar a Mazoch chtějí informovat před velkými rozhodnutími. Kurzok s V sdílí klimatickou odolnost a plánování; Wolna a Humel výslovně podporují rozvoj kultury. To jsou doložené tematické návaznosti vybraných lidí, nikoli souhlas celých klubů s každým nástrojem.",
+      "negotiate": "O výslovně odmítá obnovu sjezdovek a lyžování na Javorovém, Plucnar připouští zimní využití podle podmínek. V prosazuje participaci i na trvalé investice, O zdůrazňuje komunitní akce. Dále sjednat financování místních tras, příspěvku pro děti a bytů.",
+      "conclusion": "Sedmnáct mandátů poskytuje tři hlasy nad většinou. Šíře témat vyžaduje přesné pořadí investic a dohodu o Javorovém.",
+      "sources": [
+        "PV2",
+        "PV3",
+        "PV4",
+        "PA",
+        "PO1",
+        "PO2",
+        "PO3",
+        "CO1",
+        "CO3",
+        "CV",
+        "M1",
+        "M2",
+        "M9"
+      ],
+      "peopleIds": [
+        "1-1",
+        "5-1",
+        "3-2",
+        "3-5",
+        "1-8"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Volte Třinec s ANO a KDU",
+      "parties": [
+        "V",
+        "A",
+        "K"
+      ],
+      "seats": 15,
+      "reserve": 1,
+      "common": "Společné programové body tvoří bezpečné školy a veřejný prostor, místní komunity, obnova majetku a účast osadních výborů. V a K mají podrobnější sociální a energetické návrhy; A tuto podobu péče nebo energetiky na letáku nerozpracovává.",
+      "people": "Plucnar a Mazoch podporují včasnou komunikaci. Golasowská se sociálními službami věcně navazuje na pilíř Živý Třinec. Waniovy konkrétní energetické návrhy lze propojit s programem Odolný Třinec; Humelův kulturní důraz s kulturní strategií K.",
+      "negotiate": "Vymezit, které služby pokračují a které se rozšiřují, včetně financování a personálu. Příprava hospice V a pohřebiště K jsou odlišné záměry. V bytové oblasti dohodnout využití městského fondu a hranici mezi dostupným a tržním nájmem.",
+      "conclusion": "Patnáct mandátů znamená jeden hlas nad většinou. Sociální a energetický průnik je konkrétní především mezi V a K; souhlas A s jeho podrobnostmi není doložen.",
+      "sources": [
+        "PV1",
+        "PV2",
+        "PV4",
+        "PA",
+        "PK",
+        "PK1",
+        "M2",
+        "M9",
+        "CV"
+      ],
+      "peopleIds": [
+        "1-1",
+        "5-1",
+        "4-2",
+        "4-1",
+        "1-8"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Volte Třinec s ANO a Společně",
+      "parties": [
+        "V",
+        "A",
+        "S"
+      ],
+      "seats": 15,
+      "reserve": 1,
+      "common": "Všechny tři chtějí otevřenější kontakt s obyvateli, silnější osadní výbory, odpovědné investice, podporu podnikatelů a hasičů. Bydlení spojuje programy V a S s Mazochovým mediálním důrazem na obnovu městských jednotek.",
+      "people": "Plucnar, Mazoch a Lotko popisují informování před rozhodnutím i potřebu řešit bydlení. V bezpečnosti všichni podporují viditelnější hlídky a spolupráci se službami. U S je osobní detail doložen u Lotka, u Kosové jej doložit nelze.",
+      "negotiate": "V nabízí městské dostupné byty, Lotko družstevní model a Mazoch i vybrané tržní pronájmy. Tyto cesty se mohou doplňovat, ale vyžadují pravidla a rozpočet. U Javorového sjednat městskou kontrolu, podíl soukromého kapitálu a závazky provozovatele. VIA Sosna je podnět S k prověření, nikoli společný příslib realizace.",
+      "conclusion": "Patnáct mandátů dává jeden hlas nad většinou. Nejprve je nutné z několika bytových a investičních modelů vytvořit konkrétní postup.",
+      "sources": [
+        "PV1",
+        "PV2",
+        "PV3",
+        "PV4",
+        "PA",
+        "PS",
+        "M1",
+        "M2",
+        "M5",
+        "M8",
+        "M9"
+      ],
+      "peopleIds": [
+        "1-1",
+        "5-1",
+        "6-1",
+        "6-2"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Volte Třinec s Osobnostmi a KDU",
+      "parties": [
+        "V",
+        "O",
+        "K"
+      ],
+      "seats": 14,
+      "reserve": 0,
+      "common": "Všechny tři se potkávají v péči o seniory, podpoře pečujících, kultuře a mladých, místních komunitách a bezpečném veřejném prostoru. Energetická a klimatická témata propojují V a K s osobním důrazem Kurzoka.",
+      "people": "Golasowská nabízí konkrétní zkušenost a pokračování sociálních služeb, Plucnar jejich dostupnost. Wolna a Wania podporují kulturní plánování, Humel prostor pro kulturu. Tyto důrazy mohou sloužit společné debatě o službách a kulturní strategii.",
+      "negotiate": "Javorový obsahuje konkrétní rozdíl mezi odmítnutím lyžování u O a Plucnarovým podmíněným zimním využitím. U kultury oddělit nové stavby, zázemí a pravidla grantů. Sociální rozvoj musí rozlišit pokračování péče, nové kapacity a přípravu hospice.",
+      "conclusion": "Čtrnáct mandátů je přesná většina. Témata se dobře navazují, ale nevypovídají o ochotě spojit se ani o ceně společného programu.",
+      "sources": [
+        "PV1",
+        "PV2",
+        "PV4",
+        "PO2",
+        "PO3",
+        "PO4",
+        "PK",
+        "PK1",
+        "CO1",
+        "CO3",
+        "CV",
+        "M1"
+      ],
+      "peopleIds": [
+        "4-2",
+        "1-1",
+        "3-5",
+        "4-1",
+        "1-8"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Volte Třinec s Osobnostmi a Společně",
+      "parties": [
+        "V",
+        "O",
+        "S"
+      ],
+      "seats": 14,
+      "reserve": 0,
+      "common": "Společným směrem jsou podmínky pro mladé rodiny, bydlení, služby seniorům, podnikání, místní části a komunikace radnice. V a O více rozpracovávají kulturní a komunitní zázemí; S zdůrazňuje prostředí pro podnikatele a provozní udržitelnost.",
+      "people": "Plucnar a Lotko mají konkrétní bytové návrhy, Kurzok téma podnikavosti a strategického rozvoje. Humel, Wolna a Eichler výslovně zdůrazňují kulturu či dostupné vyžití. U kulturní nabídky nelze S přičítat všechny nové projekty V a O.",
+      "negotiate": "Dohodnout městské versus družstevní bydlení, pravidla podpory projektů a zapojení soukromých investorů. Javorový vyžaduje shodu o provozu i zimním využití. Digitální služby S mohou doplnit otevřená data V, ale podoba, bezpečnost a cena se musí sjednat.",
+      "conclusion": "Čtrnáct mandátů znamená nulovou rezervu. Konkrétní soulad je možné hledat v bydlení a službách; kulturní investice a Javorový mají otevřené parametry.",
+      "sources": [
+        "PV2",
+        "PV3",
+        "PV4",
+        "PO",
+        "PO2",
+        "PO3",
+        "PO4",
+        "PS",
+        "CO1",
+        "CO3",
+        "CO4",
+        "CV",
+        "M1",
+        "M5"
+      ],
+      "peopleIds": [
+        "1-1",
+        "6-1",
+        "3-2",
+        "1-8",
+        "3-5",
+        "3-7"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "NEZÁVISLÍ s ANO a Osobnostmi",
+      "parties": [
+        "N",
+        "A",
+        "O"
+      ],
+      "seats": 15,
+      "reserve": 1,
+      "common": "N a O mají v programu dostupné bydlení a příspěvky na aktivity; Mazoch přidává bytové návrhy v rozhovorech. Všechny tři podporují komunitní život a veřejný prostor. Pro otevřenost lze navázat letákem A a podrobnými Frőmmerovými návrhy.",
+      "people": "Frőmmer a Mazoch chtějí pracovat s bytovým fondem a oživit město. Klepacz zdůrazňuje ekonomické posuzování majetku, Kurzok strategické plánování. Klepaczova pravidla grantů mohou navázat na Wolnin důraz na data v kulturním financování.",
+      "negotiate": "N nabízí 2 500 Kč dětem i seniorům, O 1 000 Kč dětem; sjednat účel, příjemce a četnost. MHD zdarma N porovnat s obslužností, kapacitami a objednávanými mikrobusy O. Rozdílné hodnocení dosavadní komunikace není programový zákaz spolupráce. Javorový vyžaduje shodu o městském řízení a zimních aktivitách.",
+      "conclusion": "Patnáct mandátů dává jeden hlas nad většinou a může vzniknout i bez vítěze voleb. To je aritmetická možnost, nikoli zpráva o vyjednávané dohodě.",
+      "sources": [
+        "PN2",
+        "PN3",
+        "PN6",
+        "PA",
+        "PO1",
+        "PO2",
+        "PO3",
+        "CN4",
+        "CO1",
+        "CO3",
+        "M1",
+        "M2",
+        "M9"
+      ],
+      "peopleIds": [
+        "7-1",
+        "5-1",
+        "7-4",
+        "3-2",
+        "3-5"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "NEZÁVISLÍ s ANO KDU a Společně",
+      "parties": [
+        "N",
+        "A",
+        "K",
+        "S"
+      ],
+      "seats": 15,
+      "reserve": 1,
+      "common": "Všechny čtyři podporují bezpečný veřejný prostor a místní komunitní aktivity. N a S mají bytové programy, Mazoch a Wania bytové varianty doplňují v rozhlasu. K a S rozpracovávají péči a prevenci; nelze tím označit všechny detaily za společný závazek celé čtveřice.",
+      "people": "Klepaczův ekonomický postup souvisí s Mazochovým plánem obnovy a Lotkovým důrazem na náklady. Golasowská přináší pojmenované preventivní programy. Vondráčkův výslovný zájem o dobrovolné hasiče se potkává s programy A a S.",
+      "negotiate": "MHD zdarma a příspěvky N vyžadují společný finanční rámec. U bezpečnosti dohodnout vztah policejních zásahů, terénní koordinace a sociální prevence. Lotkův partnerský Javorový porovnat s variantami Frőmmera a Wanii; podrobnosti provozu nejsou sjednány.",
+      "conclusion": "Patnáct mandátů znamená jeden hlas nad většinou. Čtyři programy nabízejí více možných nástrojů; právě jejich výběr a financování je otevřené.",
+      "sources": [
+        "PN1",
+        "PN2",
+        "PN3",
+        "PN6",
+        "PA",
+        "PK",
+        "PK1",
+        "PS",
+        "CN4",
+        "CN5",
+        "M1",
+        "M2",
+        "M5",
+        "M8"
+      ],
+      "peopleIds": [
+        "7-4",
+        "5-1",
+        "6-1",
+        "4-2",
+        "7-7"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "NEZÁVISLÍ s Osobnostmi KDU a Společně",
+      "parties": [
+        "N",
+        "O",
+        "K",
+        "S"
+      ],
+      "seats": 14,
+      "reserve": 0,
+      "common": "Všechny čtyři mají návaznosti v podmínkách pro rodiny, bydlení, místních částech a bezpečnosti. U K je podrobná bytová varianta doložena Waniovou mediální odpovědí. Péči více rozpracovávají O, K a S; N podporuje aktivitu seniorů, což není totéž jako sociální služba.",
+      "people": "Klepacz, Wolna a Wania se tematicky potkávají ve finančním či strategickém řízení kultury. Golasowská a Lotko podporují sociální prevenci. Vondráček zmiňuje hasiče a Javorový, Kurzok podnikavost a dlouhodobé plánování.",
+      "negotiate": "Sjednat rozdílné příspěvky N a O, cenu dopravních opatření a rozsah sociálních služeb. Na Javorovém vymezit vlastnictví, provozovatele, soukromý kapitál a hranici zimního využití. U správy radnice společně určit míru zveřejňování podkladů a podobu městských médií.",
+      "conclusion": "Čtrnáct mandátů je přesná většina. Dosavadní trojice O K S má po volbách jen osm mandátů; s N by matematicky dosáhla většiny. Nejde o doložené pokračování koalice.",
+      "sources": [
+        "PN2",
+        "PN3",
+        "PN6",
+        "PO1",
+        "PO2",
+        "PO3",
+        "PO4",
+        "PK",
+        "PK1",
+        "PS",
+        "CN4",
+        "CN5",
+        "CO1",
+        "CO3",
+        "M1",
+        "M8",
+        "M9"
+      ],
+      "peopleIds": [
+        "7-4",
+        "3-5",
+        "4-1",
+        "4-2",
+        "6-1",
+        "7-7",
+        "3-2"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "title": "Správa a účast",
+      "common": "V a A uvádějí prostor pro občany a včasné projednání. N přidává podklady, zápisy a vyváženější zpravodaj; S pravidla odpovědí. O podporuje veřejné konzultace, K osadní výbory.",
+      "question": "Rozsah zveřejňování, termíny odpovědí a podoba médií. Přenos jednání není totéž jako účast před rozhodnutím.",
+      "sources": [
+        "PV3",
+        "PA",
+        "M9",
+        "PO1",
+        "PK"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bydlení",
+      "common": "V a N pracují s dostupným městským fondem; O s novými a startovacími byty. Lotko nabízí družstevní variantu, Mazoch opravy i vybrané tržní pronájmy, Wania podmíněné výkupy.",
+      "question": "Počet a typ bytů, pravidla přidělení, role soukromého partnera a finanční návratnost.",
+      "sources": [
+        "PV2",
+        "PN6",
+        "PO3",
+        "M1",
+        "M2",
+        "M5"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sociální péče",
+      "common": "V O K S uvádějí služby a podporu pečujících. Golasowská jmenuje pokračující péči a prevenci. Příspěvek N na seniorské aktivity řeší jiný typ potřeby.",
+      "question": "Stávající služby versus rozšíření kapacit; náklady a personál. V navrhuje přípravu hospice, ne jeho otevření v mandátu.",
+      "sources": [
+        "PV2",
+        "PO4",
+        "PK1",
+        "PS",
+        "PN3"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Děti a školy",
+      "common": "V A O K mají vazby na školy, bezpečí, komunitní a volnočasové zázemí. N nabízí finanční příspěvek na aktivity; Šoltésová samostatně podporuje hlas mladých.",
+      "question": "Příspěvek N 2 500 Kč a O 1 000 Kč mají rozdílné příjemce i parametry. Přístup ke sportovištím a zázemí není totéž co hotovostní podpora.",
+      "sources": [
+        "PV2",
+        "PA",
+        "PO3",
+        "PK",
+        "PN3",
+        "CN3"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Kultura a sport",
+      "common": "V N A O K výslovně podporují kulturní či spolkový život. Humel chce prostor pro kulturu, Wolna plán z dat, Klepacz férové granty; Kurzok zázemí pro mladé.",
+      "question": "Grantová pravidla, provoz, nová zařízení a ochrana nočního klidu. Samotná podpora kultury neznamená souhlas s konkrétní stavbou.",
+      "sources": [
+        "PV2",
+        "PN7",
+        "PA",
+        "PO5",
+        "PK",
+        "CV",
+        "CO3",
+        "CN4",
+        "M7"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Veřejný pořádek",
+      "common": "Doloženy jsou návrhy hlídek, prevence a spolupráce služeb. Frőmmer přidává koordinátora, vykázání z centra a omezení přílivu; Plucnar odmítá pouhé přesouvání lidí.",
+      "question": "Konkrétní postup není shodný. Ujasnit pravomoci, návazné místo pomoci, personál i vztah represe a sociální práce.",
+      "sources": [
+        "PN1",
+        "M8",
+        "PK1"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Veřejná doprava",
+      "common": "V chce návaznosti a lepší informace, N MHD zdarma a terminál. O nabízí objednávané mikrobusy za běžné jízdné pro místní části.",
+      "question": "Cena, linky, kapacita a smluvní podmínky. Běžné jízdné mikrobusu a obecná bezplatná MHD jsou otázkou integrace, ne automatickým zákazem spolupráce.",
+      "sources": [
+        "PV1",
+        "PV2",
+        "PN2",
+        "PN4",
+        "PO1"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Silnice a parkování",
+      "common": "N a S rozpracovávají parkování; V spolufinancování s vlastníky. O slibuje 100 mil. Kč na pěší a cyklistické trasy, K bezpečné cesty a omezení těžkého tranzitu.",
+      "question": "Pořadí staveb a ochrana zeleně. VIA Sosna přes Vendryni je varianta S k prověření, ne jistá stavba.",
+      "sources": [
+        "PN5",
+        "PS",
+        "PV1",
+        "PO1",
+        "PK"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Místní infrastruktura",
+      "common": "V a O řeší vodu, kanalizaci a bezpečné trasy; A malé místní projekty. N zdůrazňuje stejnou péči, K a S roli osadních výborů.",
+      "question": "Rozvojové lokality, harmonogram sítí, fondy pro domácnosti a dělba prostředků mezi částmi.",
+      "sources": [
+        "PV1",
+        "PO1",
+        "PA",
+        "PN",
+        "PK",
+        "PS"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Majetek a finance",
+      "common": "A chce plán obnovy a městské strategické vlastnictví; V systematická data a zveřejnění investic. Klepacz víceletý plán a ekonomickou kontrolu, S náklady celého provozu.",
+      "question": "Kritéria projektů, dlouhodobé provozní výdaje a kapacita rozpočtu. Soukromé financování nesmí být zaměněno s automatickým prodejem majetku.",
+      "sources": [
+        "PA",
+        "PV3",
+        "PV4",
+        "CN4",
+        "PS"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Podnikání a práce",
+      "common": "V uvádí pomoc podnikání a vazby škol s firmami; O Podnikej v Třinci a zázemí, S podmínky pro podnikatele. Mazoch a Wania doplňují mediální návrhy podpory.",
+      "question": "Kdo podporu získá, nájmy, poradenství, zdroj peněz a měřitelné výsledky. Pracovní místa nelze z programu považovat za zajištěná.",
+      "sources": [
+        "PV4",
+        "PO",
+        "PS",
+        "M1"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Klima energie a krize",
+      "common": "V a K řeší energii a ochlazování, A zeleň a lesy. Kurzok osobně jmenuje klimatickou odolnost. V A S výslovně podporují hasiče; Vondráček také ve vlastním profilu.",
+      "question": "Konkrétní budovy a úspory, pořadí opatření, péče o zeleň a krizová kapacita. Profesní odbornost sama neurčuje politickou gesci.",
+      "sources": [
+        "PV4",
+        "PK1",
+        "PA",
+        "CO1",
+        "PS",
+        "CN5"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Javorový",
+      "common": "O chce městskou chatu a vrchol, citlivou obnovu a odmítá obnovu lyžování. Plucnar připouští zimní využití podle podmínek. Lotko nabízí PPP; Frőmmer a Wania různé formy městské kontroly provozu.",
+      "question": "Vlastnictví, provozní model, cena, návštěvnost a zimní aktivity. PPP není samo o sobě privatizace; současně není doložen souhlas všech s jedním modelem.",
+      "sources": [
+        "PO2",
+        "M1",
+        "M5"
+      ]
+    }
+  ],
+  "profileTopics": [
+    {
+      "id": "governance",
+      "label": "Správa a zapojení občanů"
+    },
+    {
+      "id": "housing",
+      "label": "Bydlení"
+    },
+    {
+      "id": "care",
+      "label": "Sociální péče"
+    },
+    {
+      "id": "young",
+      "label": "Děti, rodiny a mladí"
+    },
+    {
+      "id": "culture",
+      "label": "Kultura a sport"
+    },
+    {
+      "id": "safety",
+      "label": "Bezpečnost a prevence"
+    },
+    {
+      "id": "transport",
+      "label": "Doprava"
+    },
+    {
+      "id": "districts",
+      "label": "Místní části"
+    },
+    {
+      "id": "finance",
+      "label": "Majetek a finance"
+    },
+    {
+      "id": "business",
+      "label": "Podnikání"
+    },
+    {
+      "id": "climate",
+      "label": "Energie a prostředí"
+    },
+    {
+      "id": "javorovy",
+      "label": "Javorový"
+    },
+    {
+      "id": "digital",
+      "label": "Digitální služby"
+    }
+  ],
+  "extensions": [
+    {
+      "parties": [
+        "V",
+        "N",
+        "K"
+      ],
+      "seats": 16,
+      "description": "Podrobnější sociální a energetické návrhy K"
+    },
+    {
+      "parties": [
+        "V",
+        "N",
+        "S"
+      ],
+      "seats": 16,
+      "description": "Družstevní a partnerské modely, digitalizace S"
+    },
+    {
+      "parties": [
+        "V",
+        "N",
+        "O"
+      ],
+      "seats": 18,
+      "description": "Projekty pro rodiny a části, kulturní řízení a postoj O k Javorovému"
+    },
+    {
+      "parties": [
+        "V",
+        "N",
+        "A"
+      ],
+      "seats": 19,
+      "description": "Obnova majetku a participace A, Mazochovy mediální návrhy"
+    }
+  ],
+  "sources": [
+    {
+      "id": "R1",
+      "label": "ČSÚ  |  Konečné výsledky Třince a zvolení zastupitelé  |  11. 10. 2026",
+      "url": "https://volby.gov.cz/appdata/kv2026/20261009/odata/zastup/vysledky_obec_598810.xml"
+    },
+    {
+      "id": "R2",
+      "label": "ČSÚ  |  Údaje o kandidátech Třince  |  11. 10. 2026",
+      "url": "https://volby.gov.cz/appdata/kv2026/20261009/jmsez/8102/598810.json"
+    },
+    {
+      "id": "PV1",
+      "label": "Volte Třinec  |  Jeden Třinec  |  bez data",
+      "url": "https://voltetrinec.cz/jeden-trinec.html"
+    },
+    {
+      "id": "PV2",
+      "label": "Volte Třinec  |  Živý Třinec  |  bez data",
+      "url": "https://voltetrinec.cz/zivy-trinec.html"
+    },
+    {
+      "id": "PV3",
+      "label": "Volte Třinec  |  Otevřený Třinec  |  bez data",
+      "url": "https://voltetrinec.cz/otevreny-trinec.html"
+    },
+    {
+      "id": "PV4",
+      "label": "Volte Třinec  |  Odolný Třinec  |  bez data",
+      "url": "https://voltetrinec.cz/odolny-trinec.html"
+    },
+    {
+      "id": "PN",
+      "label": "NEZÁVISLÍ Třinec  |  Sedmička pro Třinec  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/program"
+    },
+    {
+      "id": "PN1",
+      "label": "NEZÁVISLÍ Třinec  |  Bezpečné ulice  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/program/bezpecne-ulice"
+    },
+    {
+      "id": "PN2",
+      "label": "NEZÁVISLÍ Třinec  |  MHD zdarma  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/program/mhd-zdarma"
+    },
+    {
+      "id": "PN3",
+      "label": "NEZÁVISLÍ Třinec  |  Příspěvek na volný čas  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/program/prispevek-na-volny-cas"
+    },
+    {
+      "id": "PN4",
+      "label": "NEZÁVISLÍ Třinec  |  Dopravní terminál  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/program/dopravni-terminal"
+    },
+    {
+      "id": "PN5",
+      "label": "NEZÁVISLÍ Třinec  |  Parkování  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/program/parkovani"
+    },
+    {
+      "id": "PN6",
+      "label": "NEZÁVISLÍ Třinec  |  Byty pro mladé rodiny  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/program/byty-pro-mlade-rodiny"
+    },
+    {
+      "id": "PN7",
+      "label": "NEZÁVISLÍ Třinec  |  Probudíme město  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/program/probudime-mesto"
+    },
+    {
+      "id": "PA",
+      "label": "ANO 2011  |  Volební leták poskytnutý zadavatelem  |  2026, den neuveden. Původní obrazová příloha předchozí rešerše; není nahrazena obecným celostátním programem ANO.",
+      "url": null
+    },
+    {
+      "id": "PO",
+      "label": "Osobnosti pro Třinec  |  Program 2026  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/program.html"
+    },
+    {
+      "id": "PO1",
+      "label": "Osobnosti pro Třinec  |  Program pro příměstské části  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/casti.html"
+    },
+    {
+      "id": "PO2",
+      "label": "Osobnosti pro Třinec  |  Javorový  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/javorovy.html"
+    },
+    {
+      "id": "PO3",
+      "label": "Osobnosti pro Třinec  |  Mladé rodiny do Třince  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/blog-mlade-rodiny-do-trince.html"
+    },
+    {
+      "id": "PO4",
+      "label": "Osobnosti pro Třinec  |  Spojujeme generace  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/blog-spojujeme-generace.html"
+    },
+    {
+      "id": "PO5",
+      "label": "Adam Kurzok  |  Je v Třinci mrtvo nebo živo  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/blog-je-v-trinci-mrtvo-nebo-zivo.html"
+    },
+    {
+      "id": "PK",
+      "label": "KDU-ČSL Třinec  |  Program pro období 2026 až 2030  |  2026",
+      "url": "https://trinec.kdu.cz/o-nas-(1)/volebni-program"
+    },
+    {
+      "id": "PK1",
+      "label": "KDU-ČSL Třinec  |  Volební zpravodaj, čtyři strany  |  říjen 2026. Osobní články: Wania strany 1 a 2, Golasowská strana 2; společné karty strana 3.",
+      "url": "https://trinec.kdu.cz/getattachment/O-nas/Dokumenty/Zpravodaje/2026_10-Volebni-zpravodaj.pdf.aspx"
+    },
+    {
+      "id": "PS",
+      "label": "SPOLEČNĚ PRO TŘINEC  |  Jedenáct programových bodů  |  2026",
+      "url": "https://spolecneprotrinec.cz/"
+    },
+    {
+      "id": "CV",
+      "label": "Volte Třinec  |  Osobní medailonky kandidátů  |  bez data",
+      "url": "https://voltetrinec.cz/nasi-kandidati.html"
+    },
+    {
+      "id": "CN2",
+      "label": "Radim Turek  |  Osobní medailonek  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/kandidati/radim-turek"
+    },
+    {
+      "id": "CN3",
+      "label": "Radana Šoltésová  |  Osobní medailonek  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/kandidati/radana-soltesova"
+    },
+    {
+      "id": "CN4",
+      "label": "Milan Klepacz  |  Osobní medailonek  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/kandidati/milan-klepacz"
+    },
+    {
+      "id": "CN5",
+      "label": "Roman Vondráček  |  Osobní medailonek  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/kandidati/roman-vondracek"
+    },
+    {
+      "id": "CO1",
+      "label": "Adam Kurzok  |  Osobní medailonek  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/kandidat-adam-kurzok.html"
+    },
+    {
+      "id": "CO3",
+      "label": "Martina Wolna  |  Osobní medailonek  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/kandidat-martina-wolna.html"
+    },
+    {
+      "id": "CO4",
+      "label": "Regina Eichler  |  Osobní medailonek  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/kandidat-regina-eichler.html"
+    },
+    {
+      "id": "M1",
+      "label": "Český rozhlas Ostrava  |  Volební speciál z Třince  |  2. 10. 2026",
+      "url": "https://ostrava.rozhlas.cz/komunalni-volby-2026-special-z-trince-9647171"
+    },
+    {
+      "id": "M2",
+      "label": "TV POLAR  |  Volební studio s Janem Mazochem  |  2. 10. 2026",
+      "url": "https://polar.cz/porady/volebni-studio-2026/volebni-studio-2026-02-10-2026-00-20-00?url=volebni-studio-2026"
+    },
+    {
+      "id": "M3",
+      "label": "TV POLAR  |  Volební studio s Marianem Plucnarem  |  2. 10. 2026",
+      "url": "https://polar.cz/porady/volebni-studio-2026/volebni-studio-2026-02-10-2026-00-30-00?url=volebni-studio-2026"
+    },
+    {
+      "id": "M4",
+      "label": "TV POLAR  |  Volební studio s Ivanem Frőmmerem  |  2. 10. 2026",
+      "url": "https://polar.cz/porady/volebni-studio-2026/volebni-studio-2026-02-10-2026-00-40-00"
+    },
+    {
+      "id": "M5",
+      "label": "TV POLAR  |  Volební studio s Robinem Lotkem  |  2. 10. 2026",
+      "url": "https://polar.cz/porady/volebni-studio-2026/volebni-studio-2026-02-10-2026-00-00-00?url=volebni-studio-2026"
+    },
+    {
+      "id": "M7",
+      "label": "Okraj  |  Večerní a noční život  |  9. 10. 2026",
+      "url": "https://www.okraj.cz/trinecti-kandidati-chteji-ozivit-nocni-zivot-nezavisli-planuji-zavest-nocniho-starostu/"
+    },
+    {
+      "id": "M8",
+      "label": "Okraj  |  Bezdomovectví a veřejný pořádek  |  2. 10. 2026",
+      "url": "https://www.okraj.cz/kandidati-v-trinci-chteji-resit-bezdomovectvi-posilenim-policejnich-hlidek-i-lidi-v-terenu/"
+    },
+    {
+      "id": "M9",
+      "label": "Okraj  |  Komunikace radnice s občany  |  6. 10. 2026",
+      "url": "https://www.okraj.cz/osobnosti-pro-trinec-chvali-komunikaci-radnice-dalsi-kandidati-chteji-vetsi-otevrenost/"
+    },
+    {
+      "id": "M11",
+      "label": "Novinky  |  Povolební vyjádření Mariana Plucnara  |  10. 10. 2026",
+      "url": "https://www.novinky.cz/clanek/volby-komunalni-trinec-meni-kurz-po-odchodu-palkovske-vyhralo-volby-plucnarovo-volte-trinec-40602052"
+    },
+    {
+      "id": "M12",
+      "label": "TV POLAR  |  Zpráva o probíhajícím koaličním jednání  |  11. 10. 2026 v 9.08",
+      "url": "https://polar.cz/zpravy/moravskoslezsky-kraj/cely-ms-kraj/11000057286/osobnosti-pro-trinec-ve-volbach-propadly-vznika-nova-koalice"
+    },
+    {
+      "id": "PA0",
+      "label": "Programy do voleb  |  ANO 2011 v Třinci a odkazy na program  |  bez data",
+      "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/164391"
+    },
+    {
+      "id": "CN1",
+      "label": "Ivan Frőmmer  |  Osobní medailonek  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/kandidati/ivan-frommer"
+    },
+    {
+      "id": "CN6",
+      "label": "Anna Laššáková  |  Osobní medailonek  |  bez data",
+      "url": "https://www.nezavislitrinec.cz/kandidati/anna-lassakova"
+    },
+    {
+      "id": "CO2",
+      "label": "Marek Štěrba  |  Osobní medailonek  |  bez data",
+      "url": "https://osobnostiprotrinec.cz/kandidat-marek-sterba.html"
+    },
+    {
+      "id": "CK1",
+      "label": "Wiesław Wania  |  Osobní medailonek  |  bez data",
+      "url": "https://trinec.kdu.cz/o-nas-(1)/kandidati/wania"
+    },
+    {
+      "id": "CK2",
+      "label": "Pavla Golasowská  |  Osobní medailonek  |  bez data",
+      "url": "https://trinec.kdu.cz/o-nas-(1)/kandidati/golasowska"
+    },
+    {
+      "id": "CS2",
+      "label": "ODS Třinec  |  Dominika Kosová na kandidátce  |  2026",
+      "url": "https://www.ods.cz/ms.trinec/volby2026/komunalni/3249-trinec/43972-dominika-kosova"
+    },
+    {
+      "id": "M6",
+      "label": "Okraj  |  Mladí lidé a návrat do Třince  |  8. 10. 2026",
+      "url": "https://www.okraj.cz/mladi-mizi-z-trin-stve-kandidaty-levice-slibuje-zmenu-za-sest-mesicu/"
+    },
+    {
+      "id": "M10",
+      "label": "Okraj  |  Budoucnost náměstí TGM  |  4. 10. 2026",
+      "url": "https://www.okraj.cz/kandidati-v-trinci-se-obavaji-o-platany-na-namesti-tgm-levice-chce-zkontrolovat-smlouvy/"
+    }
+  ],
+  "provenance": [
+    {
+      "filename": "Koalice_Trinec_2026(1).docx",
+      "sha256": "9c9d628d08620106c08bc1b84218e0f4c31ec9319053666fba00682b6e3a75d9"
+    },
+    {
+      "filename": "Profily_zastupitelu_Trinec_2026(1).docx",
+      "sha256": "0fcd1a19dfc4df78330974c1fb3d1b34c9d5ae7178fe19660a2c6bb61a3af8df"
+    }
+  ]
+}
