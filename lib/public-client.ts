@@ -1,8 +1,9 @@
 import type {ClientData,PublicSnapshot,PublicCoverage} from './public-types';
 import type {HistoryPage} from './history-types';
 import {assetPath} from './runtime';
-import {unpackSnapshot} from './public-transport';
+import {isManifest,unpackSnapshot} from './public-transport';
 let snapshot:PublicSnapshot|null=null,pending:Promise<PublicSnapshot>|null=null;
+let verifiedManifest:string|null=null;
 export function validPublicCoverage(value:unknown,sourceIds:Set<number>):value is PublicCoverage{
  const object=(x:unknown):x is Record<string,any>=>!!x&&typeof x==='object'&&!Array.isArray(x);
  const string=(x:unknown,max:number)=>typeof x==='string'&&x.length>0&&x.length<=max;
@@ -18,8 +19,19 @@ export function validPublicSnapshot(value:unknown):value is PublicSnapshot{
 }
 async function readSnapshot(force=false):Promise<PublicSnapshot>{
  if(pending)return pending;if(snapshot&&!force)return snapshot;
- pending=(async()=>{const response=await fetch(assetPath('/data/published.json')+`?v=${Math.floor(Date.now()/60000)}`,{cache:'no-store',signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error('Zveřejněné výsledky se nepodařilo načíst.');const value=await unpackSnapshot(await response.json(),async path=>{const part=await fetch(assetPath('/data/'+path),{signal:AbortSignal.timeout(30000)});if(!part.ok)throw Error('Část zveřejněných výsledků zatím není dostupná.');return new Uint8Array(await part.arrayBuffer());});if(!validPublicSnapshot(value))throw Error('Zveřejněná data mají neplatný formát.');snapshot=value;return value;})();
+ pending=(async()=>{
+  // Revalidate the stable URL so manual refresh can see corrections and use HTTP validators.
+  const response=await fetch(assetPath('/data/published.json'),{cache:'no-cache',signal:AbortSignal.timeout(30000)});
+  if(!response.ok)throw Error('Zveřejněné výsledky se nepodařilo načíst.');
+  const transport:unknown=await response.json();
+  const manifest=isManifest(transport)?JSON.stringify(transport):null;
+  // Only reuse a manifest whose complete payload has already passed validation.
+  if(snapshot&&manifest!==null&&manifest===verifiedManifest)return snapshot;
+  const value=await unpackSnapshot(transport,async path=>{const part=await fetch(assetPath('/data/'+path),{signal:AbortSignal.timeout(30000)});if(!part.ok)throw Error('Část zveřejněných výsledků zatím není dostupná.');return new Uint8Array(await part.arrayBuffer());});
+  if(!validPublicSnapshot(value))throw Error('Zveřejněná data mají neplatný formát.');
+  snapshot=value;verifiedManifest=manifest;return value;
+ })();
  try{return await pending;}finally{pending=null;}
 }
-export async function getPublicResults(_update=true):Promise<ClientData>{const s=await readSnapshot(true);return {...s.state,publication:s.publication,coverage:s.coverage};}
+export async function getPublicResults(update=true):Promise<ClientData>{const s=await readSnapshot(update);return {...s.state,publication:s.publication,coverage:s.coverage};}
 export async function getPublicHistory(before?:number):Promise<HistoryPage>{const s=await readSnapshot(),all=s.history.filter(h=>before===undefined||h.id<before),items=all.slice(-100);return {items,nextBefore:all.length>100?items[0].id:null,archive:s.state.archive};}

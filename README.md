@@ -50,6 +50,20 @@ npm run build
 
 Výstup je ve složce `docs/`. Sestavení zachovává existující veřejný soubor výsledků. GitHub Pages tohoto repozitáře používá větev `main` a složku `/docs`.
 
+## Obnovování veřejných výsledků
+
+Veřejný web načte publikovaný snímek při otevření stránky. Automatické obnovení je výchozí vypnuté; stará volba z volebního přenosu se nepřebírá. Dokud snímek nemá `state.live.city.complete: true`, lze kontrolu po minutě ručně zapnout. Po načtení konečného výsledku se opakované kontroly i obnova při návratu na kartu zastaví, včetně dříve uložené volby. Zůstává tlačítko **Obnovit výsledky**.
+
+Ruční obnova znovu ověří `docs/data/published.json` na stabilní URL s `cache: 'no-cache'`, takže prohlížeč může využít HTTP validátory. Shodný, již ověřený manifest znovu nestahuje části snímku. Změněný manifest se načte a ověří celý, i když má stále všech 38 okrsků a stejnou dávku. Výsledky i historie sdílejí paměťovou kopii pouze po dobu otevření stránky. Při chybě zůstane poslední úspěšný snímek a další ruční pokus ověření zopakuje.
+
+Oprava dat musí být nejprve zveřejněna v `docs/data/published.json` a příslušných částech v `docs/data/parts/`. Pak ji návštěvník získá ruční obnovou nebo novým načtením stránky. Samotná změna `data/final-results-2026.json` publikovaný snímek neupraví. Analýzy a povolební přehledy používají data vložená při sestavení; jejich oprava vyžaduje nové sestavení a zveřejnění souborů `docs/`.
+
+Ověření načítání, sdílení snímku, ruční obnovy a oprav:
+
+```sh
+npm test
+```
+
 ## Zdroje a externí služby
 
 - Výsledky a seznamy kandidátů: https://volby.gov.cz/
